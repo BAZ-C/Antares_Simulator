@@ -30,6 +30,7 @@ theme:
 nav:
   - 'Home': index.md
   - 'Antares ecosystem' : 'https://antares-doc.readthedocs.io'
+  - 'Changelog': 'CHANGELOG.md'
   - 'Reference guide':
     - 'Introduction': 'reference-guide/01-introduction.md'
     - 'Data organization': 'reference-guide/02-data_organization.md'
@@ -44,6 +45,7 @@ nav:
     - 'Adequacy patch (v8.3.0+)': 'reference-guide/14-adequacy-patch.md'
     - 'File format changes': 'reference-guide/13-file-format.md'
     - 'Attribution notices': 'reference-guide/12-attribution_notices.md'
+    - 'Use with FICO XPRESS': 'reference-guide/16-xpress.md'
   - 'Optimisation problem' : 'reference-guide/11-modeling.md'
   - 'Build':
     - 'Introduction': 'build/0-INSTALL.md'
@@ -55,7 +57,6 @@ nav:
     - 'Installer creation': 'build/5-Installer-creation.md'
     - 'Continuous Integration' : 'build/continuous-integration.md'
     - 'OR-tools integration' : 'build/ortools-integration.md'
-  - 'Changelog': 'CHANGELOG.md'
 
 plugins:
   - search
