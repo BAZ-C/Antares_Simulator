@@ -9,6 +9,7 @@
 ** gitlab: https://gitlab.com/libyuni/libyuni/ (mirror)
 */
 #include "filename-manipulation.h"
+#include <filesystem>
 
 namespace Yuni
 {
@@ -258,28 +259,7 @@ void Normalize(Clob& out, const AnyString& in, bool replaceSlashes)
 
 bool IsAbsolute(const AnyString& filename)
 {
-    if (not filename.empty())
-    {
-        // UNIX Style
-        char c = filename[0];
-        if (c == '/' or c == '\\')
-            return true;
-
-        // Windows Style
-        if (filename.size() >= 2 and filename[1] == ':')
-        {
-            if (String::IsAlpha(c))
-            {
-                if (filename.size() == 2)
-                    return true;
-                // obviously strictly greater than 2 (see >= 2 before)
-                char d = filename[2];
-                if (d == '\\' or d == '/')
-                    return true;
-            }
-        }
-    }
-    return false;
+    return std::filesystem::path(filename.c_str()).is_absolute();
 }
 
 template<class StringT>
