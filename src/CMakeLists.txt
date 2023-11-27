@@ -10,7 +10,9 @@ set(ANTARES_BETA 0)
 set(ANTARES_RC 3)
 
 set(ANTARES_VERSION_YEAR      2023)
-
+if(DEFINED ENV{VCPKG_DEFAULT_TRIPLET} AND NOT DEFINED VCPKG_TARGET_TRIPLET)
+  set(VCPKG_TARGET_TRIPLET "$ENV{VCPKG_DEFAULT_TRIPLET}" CACHE STRING "The vcpkg triplet")
+endif()
 project(antares
         VERSION ${ANTARES_VERSION_HI}.${ANTARES_VERSION_LO}.${ANTARES_VERSION_REVISION})
 
@@ -36,6 +38,8 @@ include(CMakeDependentOption)
 include(FetchContent)
 
 set(CMAKE_CXX_STANDARD 17)
+
+
 
 if (DEFINED VCPKG_ROOT)
     include(${VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake)
