@@ -83,7 +83,6 @@ var annotated_dup =
             [ "CheckUnitCount", "structAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1CheckUnitCount.html", null ],
             [ "classicColumn", "classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1classicColumn.html", null ],
             [ "Column", "classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1Column.html", null ],
-            [ "ColumnHydroMaxPower", "classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1ColumnHydroMaxPower.html", null ],
             [ "ColumnNTC", "classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1ColumnNTC.html", null ],
             [ "ColumnRenewableClusters", "classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1ColumnRenewableClusters.html", null ],
             [ "CommonClusterSummarySingleArea", "classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1CommonClusterSummarySingleArea.html", "classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1CommonClusterSummarySingleArea" ],
@@ -99,7 +98,6 @@ var annotated_dup =
             [ "geographicTrimmingGrid", "classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1geographicTrimmingGrid.html", "classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1geographicTrimmingGrid" ],
             [ "HydroAllocation", "classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1HydroAllocation.html", "classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1HydroAllocation" ],
             [ "hydroLevelsScBuilderRenderer", "classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1hydroLevelsScBuilderRenderer.html", "classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1hydroLevelsScBuilderRenderer" ],
-            [ "hydroMaxPowerScBuilderRenderer", "classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1hydroMaxPowerScBuilderRenderer.html", "classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1hydroMaxPowerScBuilderRenderer" ],
             [ "HydroMonthlyHours", "classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1HydroMonthlyHours.html", "classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1HydroMonthlyHours" ],
             [ "HydroPrepro", "classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1HydroPrepro.html", "classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1HydroPrepro" ],
             [ "hydroScBuilderRenderer", "classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1hydroScBuilderRenderer.html", "classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1hydroScBuilderRenderer" ],
@@ -242,7 +240,6 @@ var annotated_dup =
           [ "BindingConstraintsTSNumberData", "classAntares_1_1Data_1_1ScenarioBuilder_1_1BindingConstraintsTSNumberData.html", "classAntares_1_1Data_1_1ScenarioBuilder_1_1BindingConstraintsTSNumberData" ],
           [ "dataInterface", "classAntares_1_1Data_1_1ScenarioBuilder_1_1dataInterface.html", "classAntares_1_1Data_1_1ScenarioBuilder_1_1dataInterface" ],
           [ "hydroLevelsData", "classAntares_1_1Data_1_1ScenarioBuilder_1_1hydroLevelsData.html", "classAntares_1_1Data_1_1ScenarioBuilder_1_1hydroLevelsData" ],
-          [ "hydroMaxPowerTSNumberData", "classAntares_1_1Data_1_1ScenarioBuilder_1_1hydroMaxPowerTSNumberData.html", "classAntares_1_1Data_1_1ScenarioBuilder_1_1hydroMaxPowerTSNumberData" ],
           [ "hydroTSNumberData", "classAntares_1_1Data_1_1ScenarioBuilder_1_1hydroTSNumberData.html", "classAntares_1_1Data_1_1ScenarioBuilder_1_1hydroTSNumberData" ],
           [ "loadTSNumberData", "classAntares_1_1Data_1_1ScenarioBuilder_1_1loadTSNumberData.html", "classAntares_1_1Data_1_1ScenarioBuilder_1_1loadTSNumberData" ],
           [ "ntcTSNumberData", "classAntares_1_1Data_1_1ScenarioBuilder_1_1ntcTSNumberData.html", "classAntares_1_1Data_1_1ScenarioBuilder_1_1ntcTSNumberData" ],
@@ -301,8 +298,8 @@ var annotated_dup =
         [ "PartRenewable", "classAntares_1_1Data_1_1PartRenewable.html", "classAntares_1_1Data_1_1PartRenewable" ],
         [ "PartThermal", "classAntares_1_1Data_1_1PartThermal.html", "classAntares_1_1Data_1_1PartThermal" ],
         [ "Pollutant", "classAntares_1_1Data_1_1Pollutant.html", null ],
+        [ "PreproAvailability", "classAntares_1_1Data_1_1PreproAvailability.html", "classAntares_1_1Data_1_1PreproAvailability" ],
         [ "PreproHydro", "classAntares_1_1Data_1_1PreproHydro.html", "classAntares_1_1Data_1_1PreproHydro" ],
-        [ "PreproThermal", "classAntares_1_1Data_1_1PreproThermal.html", "classAntares_1_1Data_1_1PreproThermal" ],
         [ "RenewableCluster", "classAntares_1_1Data_1_1RenewableCluster.html", "classAntares_1_1Data_1_1RenewableCluster" ],
         [ "RenewableClusterList", "classAntares_1_1Data_1_1RenewableClusterList.html", "classAntares_1_1Data_1_1RenewableClusterList" ],
         [ "SetHandlerAreas", "classAntares_1_1Data_1_1SetHandlerAreas.html", null ],
@@ -326,6 +323,7 @@ var annotated_dup =
         [ "TimeSeriesBitPatternIntoIndex< 32 >", "structAntares_1_1Data_1_1TimeSeriesBitPatternIntoIndex_3_0132_01_4.html", null ],
         [ "TimeSeriesBitPatternIntoIndex< 4 >", "structAntares_1_1Data_1_1TimeSeriesBitPatternIntoIndex_3_014_01_4.html", null ],
         [ "TimeSeriesBitPatternIntoIndex< 8 >", "structAntares_1_1Data_1_1TimeSeriesBitPatternIntoIndex_3_018_01_4.html", null ],
+        [ "TimeSeriesNumbers", "classAntares_1_1Data_1_1TimeSeriesNumbers.html", null ],
         [ "TimeSeriesToCStr", "structAntares_1_1Data_1_1TimeSeriesToCStr.html", null ],
         [ "TimeSeriesToCStr< 1 >", "structAntares_1_1Data_1_1TimeSeriesToCStr_3_011_01_4.html", null ],
         [ "TimeSeriesToCStr< 16 >", "structAntares_1_1Data_1_1TimeSeriesToCStr_3_0116_01_4.html", null ],
@@ -360,11 +358,11 @@ var annotated_dup =
         [ "IncompatibleParallelOptions", "classAntares_1_1Error_1_1IncompatibleParallelOptions.html", null ],
         [ "IncompatibleSimulationModeForAdqPatch", "classAntares_1_1Error_1_1IncompatibleSimulationModeForAdqPatch.html", null ],
         [ "InvalidFileName", "classAntares_1_1Error_1_1InvalidFileName.html", null ],
-        [ "InvalidNumberOfMCYears", "classAntares_1_1Error_1_1InvalidNumberOfMCYears.html", null ],
         [ "InvalidOptimizationRange", "classAntares_1_1Error_1_1InvalidOptimizationRange.html", null ],
         [ "InvalidParametersForThermalClusters", "classAntares_1_1Error_1_1InvalidParametersForThermalClusters.html", null ],
         [ "InvalidSimulationMode", "classAntares_1_1Error_1_1InvalidSimulationMode.html", null ],
         [ "InvalidSolver", "classAntares_1_1Error_1_1InvalidSolver.html", null ],
+        [ "InvalidSolverSpecificParameters", "classAntares_1_1Error_1_1InvalidSolverSpecificParameters.html", null ],
         [ "InvalidStudy", "classAntares_1_1Error_1_1InvalidStudy.html", null ],
         [ "InvalidVersion", "classAntares_1_1Error_1_1InvalidVersion.html", null ],
         [ "LoadingError", "classAntares_1_1Error_1_1LoadingError.html", null ],
@@ -420,6 +418,8 @@ var annotated_dup =
         [ "Settings", "classAntares_1_1Map_1_1Settings.html", null ]
       ] ],
       [ "Optimization", null, [
+        [ "BasisStatus", "classAntares_1_1Optimization_1_1BasisStatus.html", null ],
+        [ "BasisStatusImpl", "classAntares_1_1Optimization_1_1BasisStatusImpl.html", null ],
         [ "Constraint", "classAntares_1_1Optimization_1_1Constraint.html", null ],
         [ "ConstraintSlackAnalysis", "classAntares_1_1Optimization_1_1ConstraintSlackAnalysis.html", null ],
         [ "InfeasibleProblemReport", "classAntares_1_1Optimization_1_1InfeasibleProblemReport.html", null ],
@@ -469,7 +469,7 @@ var annotated_dup =
           [ "AdequacyPatchOptimization", "classAntares_1_1Solver_1_1Optimization_1_1AdequacyPatchOptimization.html", null ],
           [ "CsrQuadraticProblem", "classAntares_1_1Solver_1_1Optimization_1_1CsrQuadraticProblem.html", null ],
           [ "DefaultWeeklyOptimization", "classAntares_1_1Solver_1_1Optimization_1_1DefaultWeeklyOptimization.html", null ],
-          [ "OptimizationOptions", "structAntares_1_1Solver_1_1Optimization_1_1OptimizationOptions.html", null ],
+          [ "OptimizationOptions", "structAntares_1_1Solver_1_1Optimization_1_1OptimizationOptions.html", "structAntares_1_1Solver_1_1Optimization_1_1OptimizationOptions" ],
           [ "WeeklyOptimization", "classAntares_1_1Solver_1_1Optimization_1_1WeeklyOptimization.html", null ]
         ] ],
         [ "Private", null, [
@@ -707,11 +707,9 @@ var annotated_dup =
         [ "AreaNumberOfTSretriever", "classAntares_1_1Solver_1_1AreaNumberOfTSretriever.html", null ],
         [ "EnsureQueueStartedIfNeeded", "classAntares_1_1Solver_1_1EnsureQueueStartedIfNeeded.html", null ],
         [ "HydroAreaNumberOfTSretriever", "classAntares_1_1Solver_1_1HydroAreaNumberOfTSretriever.html", null ],
-        [ "hydroMaxPowerAreaNumberOfTSretriever", "classAntares_1_1Solver_1_1hydroMaxPowerAreaNumberOfTSretriever.html", null ],
         [ "ImmediateFileResultWriter", "classAntares_1_1Solver_1_1ImmediateFileResultWriter.html", "classAntares_1_1Solver_1_1ImmediateFileResultWriter" ],
         [ "InMemoryWriter", "classAntares_1_1Solver_1_1InMemoryWriter.html", "classAntares_1_1Solver_1_1InMemoryWriter" ],
         [ "IntraModalConsistencyChecker", "classAntares_1_1Solver_1_1IntraModalConsistencyChecker.html", null ],
-        [ "IOError", "classAntares_1_1Solver_1_1IOError.html", null ],
         [ "IResultWriter", "classAntares_1_1Solver_1_1IResultWriter.html", "classAntares_1_1Solver_1_1IResultWriter" ],
         [ "LoadAreaNumberOfTSretriever", "classAntares_1_1Solver_1_1LoadAreaNumberOfTSretriever.html", null ],
         [ "NullResultWriter", "classAntares_1_1Solver_1_1NullResultWriter.html", null ],
@@ -801,7 +799,8 @@ var annotated_dup =
         [ "XCast", null, [
           [ "StudyData", "classAntares_1_1TSGenerator_1_1XCast_1_1StudyData.html", "classAntares_1_1TSGenerator_1_1XCast_1_1StudyData" ],
           [ "XCast", "classAntares_1_1TSGenerator_1_1XCast_1_1XCast.html", "classAntares_1_1TSGenerator_1_1XCast_1_1XCast" ]
-        ] ]
+        ] ],
+        [ "AvailabilityTSGeneratorData", "classAntares_1_1TSGenerator_1_1AvailabilityTSGeneratorData.html", null ]
       ] ],
       [ "UnitTests", null, [
         [ "Buffer", "classAntares_1_1UnitTests_1_1Buffer.html", null ],
@@ -950,8 +949,6 @@ var annotated_dup =
         [ "CalendarSelect", "classAntares_1_1Window_1_1CalendarSelect.html", "classAntares_1_1Window_1_1CalendarSelect" ],
         [ "CalendarViewStandard", "classAntares_1_1Window_1_1CalendarViewStandard.html", "classAntares_1_1Window_1_1CalendarViewStandard" ],
         [ "captionButton", "classAntares_1_1Window_1_1captionButton.html", null ],
-        [ "CleaningInfoRefreshTimer", "classAntares_1_1Window_1_1CleaningInfoRefreshTimer.html", null ],
-        [ "CleaningThread", "classAntares_1_1Window_1_1CleaningThread.html", null ],
         [ "CompareDesc", "classAntares_1_1Window_1_1CompareDesc.html", null ],
         [ "ConstraintsBuilderWizard", "classAntares_1_1Window_1_1ConstraintsBuilderWizard.html", "classAntares_1_1Window_1_1ConstraintsBuilderWizard" ],
         [ "CorrelationPanel", "classAntares_1_1Window_1_1CorrelationPanel.html", null ],
@@ -986,7 +983,6 @@ var annotated_dup =
         [ "SortColor", "structAntares_1_1Window_1_1SortColor.html", null ],
         [ "SpotlightProviderWindows", "classAntares_1_1Window_1_1SpotlightProviderWindows.html", null ],
         [ "StartupWizard", "classAntares_1_1Window_1_1StartupWizard.html", "classAntares_1_1Window_1_1StartupWizard" ],
-        [ "StudyCleaner", "classAntares_1_1Window_1_1StudyCleaner.html", "classAntares_1_1Window_1_1StudyCleaner" ],
         [ "StudyLogs", "classAntares_1_1Window_1_1StudyLogs.html", "classAntares_1_1Window_1_1StudyLogs" ],
         [ "ThreadUpdater", "classAntares_1_1Window_1_1ThreadUpdater.html", null ],
         [ "XCast", "classAntares_1_1Window_1_1XCast.html", "classAntares_1_1Window_1_1XCast" ]
@@ -1001,10 +997,12 @@ var annotated_dup =
       [ "Cycle", "classAntares_1_1Cycle.html", null ],
       [ "DebugData", "structAntares_1_1DebugData.html", null ],
       [ "FatalError", "classAntares_1_1FatalError.html", null ],
+      [ "FileTreeStudyLoader", "classAntares_1_1FileTreeStudyLoader.html", "classAntares_1_1FileTreeStudyLoader" ],
       [ "GUILocker", "classAntares_1_1GUILocker.html", null ],
       [ "HydroManagement", "classAntares_1_1HydroManagement.html", "classAntares_1_1HydroManagement" ],
       [ "I_mtx_to_buffer_dumper", "classAntares_1_1I__mtx__to__buffer__dumper.html", null ],
       [ "IniFile", "classAntares_1_1IniFile.html", "classAntares_1_1IniFile" ],
+      [ "IStudyLoader", "classAntares_1_1IStudyLoader.html", "classAntares_1_1IStudyLoader" ],
       [ "linkInfo", "classAntares_1_1linkInfo.html", "classAntares_1_1linkInfo" ],
       [ "Matrix", "classAntares_1_1Matrix.html", "classAntares_1_1Matrix" ],
       [ "matrix_to_buffer_dumper_factory", "classAntares_1_1matrix__to__buffer__dumper__factory.html", null ],
@@ -1027,10 +1025,8 @@ var annotated_dup =
       [ "StudyList", "classbenchmark_1_1StudyList.html", null ]
     ] ],
     [ "Benchmarking", null, [
-      [ "DurationCollector", "classBenchmarking_1_1DurationCollector.html", null ],
+      [ "DurationCollector", "classBenchmarking_1_1DurationCollector.html", "classBenchmarking_1_1DurationCollector" ],
       [ "FileContent", "classBenchmarking_1_1FileContent.html", null ],
-      [ "IDurationCollector", "classBenchmarking_1_1IDurationCollector.html", null ],
-      [ "NullDurationCollector", "classBenchmarking_1_1NullDurationCollector.html", null ],
       [ "OptimizationInfo", "structBenchmarking_1_1OptimizationInfo.html", null ],
       [ "SimulationInfoCollector", "classBenchmarking_1_1SimulationInfoCollector.html", null ],
       [ "StudyInfoCollector", "classBenchmarking_1_1StudyInfoCollector.html", null ],
@@ -1109,6 +1105,9 @@ var annotated_dup =
     [ "study_run", null, [
       [ "study_run", "classstudy__run_1_1study__run.html", null ]
     ] ],
+    [ "Test", null, [
+      [ "BasisStatus", "classTest_1_1BasisStatus.html", null ]
+    ] ],
     [ "tolerances", null, [
       [ "Linux_tolerances", "classtolerances_1_1Linux__tolerances.html", null ],
       [ "Tolerances", "classtolerances_1_1Tolerances.html", null ],
@@ -1122,15 +1121,20 @@ var annotated_dup =
     [ "VariableManagement", null, [
       [ "VariableManager", "classVariableManagement_1_1VariableManager.html", null ]
     ] ],
+    [ "YAML", null, [
+      [ "convert< Monster >", "structYAML_1_1convert_3_01Monster_01_4.html", null ],
+      [ "convert< Power >", "structYAML_1_1convert_3_01Power_01_4.html", null ],
+      [ "convert< Vec3 >", "structYAML_1_1convert_3_01Vec3_01_4.html", null ]
+    ] ],
     [ "Yuni", null, [
       [ "Extension", null, [
         [ "CString", null, [
           [ "Append< CStringT, Antares::Data::CostGeneration >", "classYuni_1_1Extension_1_1CString_1_1Append_3_01CStringT_00_01Antares_1_1Data_1_1CostGeneration_01_4.html", null ],
           [ "Append< CStringT, Antares::Data::LocalTSGenerationBehavior >", "classYuni_1_1Extension_1_1CString_1_1Append_3_01CStringT_00_01Antares_1_1Data_1_1LocalTSGenerationBehavior_01_4.html", null ],
-          [ "Append< CStringT, Antares::Data::ThermalLaw >", "classYuni_1_1Extension_1_1CString_1_1Append_3_01CStringT_00_01Antares_1_1Data_1_1ThermalLaw_01_4.html", null ],
+          [ "Append< CStringT, Antares::Data::StatisticalLaw >", "classYuni_1_1Extension_1_1CString_1_1Append_3_01CStringT_00_01Antares_1_1Data_1_1StatisticalLaw_01_4.html", null ],
           [ "Into< Antares::Data::CostGeneration >", "classYuni_1_1Extension_1_1CString_1_1Into_3_01Antares_1_1Data_1_1CostGeneration_01_4.html", null ],
           [ "Into< Antares::Data::LocalTSGenerationBehavior >", "classYuni_1_1Extension_1_1CString_1_1Into_3_01Antares_1_1Data_1_1LocalTSGenerationBehavior_01_4.html", null ],
-          [ "Into< Antares::Data::ThermalLaw >", "classYuni_1_1Extension_1_1CString_1_1Into_3_01Antares_1_1Data_1_1ThermalLaw_01_4.html", null ]
+          [ "Into< Antares::Data::StatisticalLaw >", "classYuni_1_1Extension_1_1CString_1_1Into_3_01Antares_1_1Data_1_1StatisticalLaw_01_4.html", null ]
         ] ]
       ] ]
     ] ],
@@ -1194,6 +1198,10 @@ var annotated_dup =
     [ "ExchangeBalance", "classExchangeBalance.html", null ],
     [ "ExchangeBalanceData", "structExchangeBalanceData.html", null ],
     [ "ExchangeBalanceGroup", "classExchangeBalanceGroup.html", null ],
+    [ "ExprBaseVisitor", "classExprBaseVisitor.html", "classExprBaseVisitor" ],
+    [ "ExprLexer", "classExprLexer.html", null ],
+    [ "ExprParser", "classExprParser.html", "classExprParser" ],
+    [ "ExprVisitor", "classExprVisitor.html", "classExprVisitor" ],
     [ "fake_buffer_factory", "classfake__buffer__factory.html", null ],
     [ "FictitiousLoad", "classFictitiousLoad.html", "classFictitiousLoad" ],
     [ "FictitiousLoadData", "structFictitiousLoadData.html", null ],
@@ -1204,6 +1212,7 @@ var annotated_dup =
     [ "FinalStockGroup", "classFinalStockGroup.html", null ],
     [ "Fixture", "structFixture.html", null ],
     [ "FixtureFull", "structFixtureFull.html", null ],
+    [ "FixtureMultipleTS", "classFixtureMultipleTS.html", null ],
     [ "FixtureStudyOnly", "structFixtureStudyOnly.html", null ],
     [ "FlowDissociation", "classFlowDissociation.html", "classFlowDissociation" ],
     [ "FlowDissociationData", "structFlowDissociationData.html", null ],
@@ -1247,6 +1256,7 @@ var annotated_dup =
     [ "MinHydroPowerData", "structMinHydroPowerData.html", null ],
     [ "MinMaxHydroPowerGroup", "classMinMaxHydroPowerGroup.html", null ],
     [ "ModifiedINode", "classModifiedINode.html", "classModifiedINode" ],
+    [ "Monster", "structMonster.html", null ],
     [ "mpsWriterFactory", "classmpsWriterFactory.html", null ],
     [ "MyStudyFinder", "classMyStudyFinder.html", "classMyStudyFinder" ],
     [ "Namer", "classNamer.html", null ],
@@ -1277,6 +1287,7 @@ var annotated_dup =
     [ "PMaxDispatchableGeneration", "classPMaxDispatchableGeneration.html", "classPMaxDispatchableGeneration" ],
     [ "PMinDispatchableGeneration", "classPMinDispatchableGeneration.html", "classPMinDispatchableGeneration" ],
     [ "PMinMaxDispatchableGenerationGroup", "classPMinMaxDispatchableGenerationGroup.html", "classPMinMaxDispatchableGenerationGroup" ],
+    [ "Power", "structPower.html", null ],
     [ "PredicateIdentity", "structPredicateIdentity.html", null ],
     [ "ProblemConverter", "classProblemConverter.html", null ],
     [ "PROBLEME_ANTARES_A_RESOUDRE", "structPROBLEME__ANTARES__A__RESOUDRE.html", null ],
@@ -1293,6 +1304,7 @@ var annotated_dup =
     [ "Progress", "classProgress.html", "classProgress" ],
     [ "PublicStudy", "classPublicStudy.html", "classPublicStudy" ],
     [ "QuadraticProblemMatrix", "classQuadraticProblemMatrix.html", null ],
+    [ "ReadFromStreamFixture", "structReadFromStreamFixture.html", null ],
     [ "RealName", "classRealName.html", null ],
     [ "referenceIniFile", "classreferenceIniFile.html", null ],
     [ "referenceScBuilderFile", "classreferenceScBuilderFile.html", null ],
@@ -1301,6 +1313,7 @@ var annotated_dup =
     [ "RESULTATS_HORAIRES", "structRESULTATS__HORAIRES.html", null ],
     [ "ResultMatrix", "classResultMatrix.html", "classResultMatrix" ],
     [ "saveFixture", "structsaveFixture.html", null ],
+    [ "SavingToStreamFixture", "structSavingToStreamFixture.html", null ],
     [ "ScenarioBuilderRule", "classScenarioBuilderRule.html", null ],
     [ "SearchToken", "classSearchToken.html", "classSearchToken" ],
     [ "Separator", "classSeparator.html", "classSeparator" ],
@@ -1313,7 +1326,6 @@ var annotated_dup =
     [ "StartUpCostsData", "structStartUpCostsData.html", null ],
     [ "StudyBuilder", "structStudyBuilder.html", null ],
     [ "StudyData", "classStudyData.html", "classStudyData" ],
-    [ "StudyFinderCleaner", "classStudyFinderCleaner.html", null ],
     [ "StudyFixture", "structStudyFixture.html", null ],
     [ "StudyForBCTest", "structStudyForBCTest.html", null ],
     [ "StudyWithBConCluster", "structStudyWithBConCluster.html", null ],
@@ -1334,11 +1346,11 @@ var annotated_dup =
     [ "TRANSFER_BOUND_AND_LEVEL_FLEX_DOWN_EDGE", "structTRANSFER__BOUND__AND__LEVEL__FLEX__DOWN__EDGE.html", null ],
     [ "TRANSFER_BOUND_AND_LEVEL_FLEX_UP_EDGE", "structTRANSFER__BOUND__AND__LEVEL__FLEX__UP__EDGE.html", null ],
     [ "TRANSFER_BOUND_AND_LEVEL_MARKET_EDGE", "structTRANSFER__BOUND__AND__LEVEL__MARKET__EDGE.html", null ],
-    [ "TsGeneratorSettings", "structTsGeneratorSettings.html", "structTsGeneratorSettings" ],
     [ "TSNumbersPredicate", "structTSNumbersPredicate.html", null ],
     [ "UserData", "classUserData.html", null ],
     [ "VALEURS_DE_NTC_ET_RESISTANCES", "structVALEURS__DE__NTC__ET__RESISTANCES.html", null ],
     [ "Variable", "classVariable.html", null ],
     [ "VariableNamer", "classVariableNamer.html", null ],
-    [ "VARIABLES_DUALES_INTERCONNEXIONS", "structVARIABLES__DUALES__INTERCONNEXIONS.html", null ]
+    [ "VARIABLES_DUALES_INTERCONNEXIONS", "structVARIABLES__DUALES__INTERCONNEXIONS.html", null ],
+    [ "Vec3", "structVec3.html", null ]
 ];

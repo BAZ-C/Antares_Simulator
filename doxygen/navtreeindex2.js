@@ -1,5 +1,10 @@
 var NAVTREEINDEX2 =
 {
+"classAntares_1_1Action_1_1Settings_1_1SuffixConstraintName.html#add282e01219f451728bb8bb1a90e2492":[7,0,0,0,1,2,4],
+"classAntares_1_1Action_1_1Settings_1_1SuffixConstraintName.html#ade6212a85d1dfcc024c971df9abbc811":[7,0,0,0,1,2,2],
+"classAntares_1_1Action_1_1Settings_1_1SuffixConstraintName.html#ae459d521a3f28cff01604936e7a8bfd4":[7,0,0,0,1,2,1],
+"classAntares_1_1Action_1_1Settings_1_1SuffixConstraintName.html#ae5300d8565298628b308fb008f88c8b4":[7,0,0,0,1,2,6],
+"classAntares_1_1Action_1_1Settings_1_1SuffixPlantName.html":[7,0,0,0,1,3],
 "classAntares_1_1Action_1_1Settings_1_1SuffixPlantName.html#a3f4446cfdf546ff80eecd3cc5441ea30":[7,0,0,0,1,3,4],
 "classAntares_1_1Action_1_1Settings_1_1SuffixPlantName.html#a6624c501301c5679b6faecd2ae99a228":[7,0,0,0,1,3,7],
 "classAntares_1_1Action_1_1Settings_1_1SuffixPlantName.html#a683f6dd2f7b692ecf7149861c5773f06":[7,0,0,0,1,3,3],
@@ -28,7 +33,7 @@ var NAVTREEINDEX2 =
 "classAntares_1_1CBuilder.html#a94c2a61134fb2362011457daceac1021":[7,0,0,22,2],
 "classAntares_1_1CBuilder.html#a9a0508f1e4bcc1a3aad2ba1ba6b467dc":[7,0,0,22,5],
 "classAntares_1_1CBuilder.html#aa1bfff28e46d09bd442451544badf74e":[7,0,0,22,1],
-"classAntares_1_1CBuilder.html#ab4c5133aa9bf13f23741b0ef23af80ef":[7,0,0,22,0],
+"classAntares_1_1CBuilder.html#abde22df68eee731db907bdb70e2a15b9":[7,0,0,22,0],
 "classAntares_1_1CBuilder.html#ad978d16efa6f14e71b1b81cb41d51daf":[7,0,0,22,8],
 "classAntares_1_1CBuilder.html#afc2334d042cd988519ce7f83f60b7574":[7,0,0,22,6],
 "classAntares_1_1Component_1_1Button.html":[7,0,0,1,3],
@@ -239,15 +244,10 @@ var NAVTREEINDEX2 =
 "classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1BindingConstraint_1_1LinkWeights.html#ae94139097b0e718ecfba4f128b5d8648":[7,0,0,1,0,0,1,4,5],
 "classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1Cell.html":[7,0,0,1,0,0,9],
 "classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1Column.html":[7,0,0,1,0,0,13],
-"classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1ColumnHydroMaxPower.html":[7,0,0,1,0,0,14],
-"classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1ColumnNTC.html":[7,0,0,1,0,0,15],
-"classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1ColumnRenewableClusters.html":[7,0,0,1,0,0,16],
-"classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1CommonClusterSummarySingleArea.html":[7,0,0,1,0,0,17],
-"classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1CommonClusterSummarySingleArea.html#a515c915e741ba26d9028a2cc0c6c1d55":[7,0,0,1,0,0,17,9],
-"classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1CommonClusterSummarySingleArea.html#a527b36915e53b2b113e53f4624be2491":[7,0,0,1,0,0,17,0],
-"classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1CommonClusterSummarySingleArea.html#a673ad1afc71bad20c5062bd9d9e5f09e":[7,0,0,1,0,0,17,6],
-"classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1CommonClusterSummarySingleArea.html#a6f0716d9d5f4707accca6c7952c2a325":[7,0,0,1,0,0,17,8],
-"classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1CommonClusterSummarySingleArea.html#aa2f163155bade7ef33d9f128004fb376":[7,0,0,1,0,0,17,1],
-"classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1CommonClusterSummarySingleArea.html#ab28a481c6e942194a62696248c03b2d9":[7,0,0,1,0,0,17,3],
-"classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1CommonClusterSummarySingleArea.html#ab33e2a38b7527a40be85a0be49676870":[7,0,0,1,0,0,17,4]
+"classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1ColumnNTC.html":[7,0,0,1,0,0,14],
+"classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1ColumnRenewableClusters.html":[7,0,0,1,0,0,15],
+"classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1CommonClusterSummarySingleArea.html":[7,0,0,1,0,0,16],
+"classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1CommonClusterSummarySingleArea.html#a515c915e741ba26d9028a2cc0c6c1d55":[7,0,0,1,0,0,16,9],
+"classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1CommonClusterSummarySingleArea.html#a527b36915e53b2b113e53f4624be2491":[7,0,0,1,0,0,16,0],
+"classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1CommonClusterSummarySingleArea.html#a673ad1afc71bad20c5062bd9d9e5f09e":[7,0,0,1,0,0,16,6]
 };

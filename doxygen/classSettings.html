@@ -16,7 +16,7 @@
 <meta name="twitter:title" content="Antares Simulator" />
 <meta name="twitter:description" content="Power System Simulator." />
 <!-- END twitter metadata -->
-<title>Antares Simulator: Settings Class Reference</title>
+<title>Antares Simulator: Settings Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
@@ -135,20 +135,20 @@ $(document).ready(function(){initNavTree('classSettings.html',''); initResizable
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="classSettings-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Settings Class Reference</div></div>
+  <div class="headertitle"><div class="title">Settings Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
 <p>Command line settings for launching the simulation.  
  <a href="classSettings.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="options_8h_source.html">options.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="solver_2misc_2include_2antares_2solver_2misc_2options_8h_source.html">options.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a925f5d2b5e77910c74087d92d5632f52" id="r_a925f5d2b5e77910c74087d92d5632f52"><td class="memItemLeft" align="right" valign="top"><a id="a925f5d2b5e77910c74087d92d5632f52" name="a925f5d2b5e77910c74087d92d5632f52"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>checkAndSetStudyFolder</b> (Yuni::String folder)</td></tr>
-<tr class="separator:a925f5d2b5e77910c74087d92d5632f52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc985c5a9259d40494b9b217ae9eccbb" id="r_afc985c5a9259d40494b9b217ae9eccbb"><td class="memItemLeft" align="right" valign="top"><a id="afc985c5a9259d40494b9b217ae9eccbb" name="afc985c5a9259d40494b9b217ae9eccbb"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>checkAndSetStudyFolder</b> (const std::string &amp;folder)</td></tr>
+<tr class="separator:afc985c5a9259d40494b9b217ae9eccbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afecd6362eeeee77b655500ec3be9f168" id="r_afecd6362eeeee77b655500ec3be9f168"><td class="memItemLeft" align="right" valign="top"><a id="afecd6362eeeee77b655500ec3be9f168" name="afecd6362eeeee77b655500ec3be9f168"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>reset</b> ()</td></tr>
 <tr class="separator:afecd6362eeeee77b655500ec3be9f168"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -163,10 +163,10 @@ YString&#160;</td><td class="memItemRight" valign="bottom"><b>studyFolder</b></t
 Yuni::CString&lt; 150, false &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>simulationName</b></td></tr>
 <tr class="memdesc:a2f6a7ad328def111ce976e4102f7cc85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of the simulation. <br /></td></tr>
 <tr class="separator:a2f6a7ad328def111ce976e4102f7cc85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa59826feabc4a0e80578a7b7bdef011b" id="r_aa59826feabc4a0e80578a7b7bdef011b"><td class="memItemLeft" align="right" valign="top"><a id="aa59826feabc4a0e80578a7b7bdef011b" name="aa59826feabc4a0e80578a7b7bdef011b"></a>
-YString&#160;</td><td class="memItemRight" valign="bottom"><b>commentFile</b></td></tr>
-<tr class="memdesc:aa59826feabc4a0e80578a7b7bdef011b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Comment file. <br /></td></tr>
-<tr class="separator:aa59826feabc4a0e80578a7b7bdef011b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a228b5676a10dbeb98600e5e6f1b4ac76" id="r_a228b5676a10dbeb98600e5e6f1b4ac76"><td class="memItemLeft" align="right" valign="top"><a id="a228b5676a10dbeb98600e5e6f1b4ac76" name="a228b5676a10dbeb98600e5e6f1b4ac76"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>commentFile</b></td></tr>
+<tr class="memdesc:a228b5676a10dbeb98600e5e6f1b4ac76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Comment file. <br /></td></tr>
+<tr class="separator:a228b5676a10dbeb98600e5e6f1b4ac76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a533bd3e503ce147fdf74467a7251c511" id="r_a533bd3e503ce147fdf74467a7251c511"><td class="memItemLeft" align="right" valign="top"><a id="a533bd3e503ce147fdf74467a7251c511" name="a533bd3e503ce147fdf74467a7251c511"></a>
 Yuni::CString&lt; 32, false &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>simplexOptimRange</b></td></tr>
 <tr class="memdesc:a533bd3e503ce147fdf74467a7251c511"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simplex optimizatio range. <br /></td></tr>
@@ -197,11 +197,26 @@ Yuni::String&#160;</td><td class="memItemRight" valign="bottom"><b>PID</b></td><
 <tr class="memitem:abca7349ce43deac6f66a70acd9c8bcbe" id="r_abca7349ce43deac6f66a70acd9c8bcbe"><td class="memItemLeft" align="right" valign="top"><a id="abca7349ce43deac6f66a70acd9c8bcbe" name="abca7349ce43deac6f66a70acd9c8bcbe"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>forceZipOutput</b> = false</td></tr>
 <tr class="separator:abca7349ce43deac6f66a70acd9c8bcbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d489a57195cc48dffc56770485b3f0d" id="r_a1d489a57195cc48dffc56770485b3f0d"><td class="memItemLeft" align="right" valign="top"><a id="a1d489a57195cc48dffc56770485b3f0d" name="a1d489a57195cc48dffc56770485b3f0d"></a>
+<a class="el" href="structAntares_1_1Solver_1_1Optimization_1_1OptimizationOptions.html">Antares::Solver::Optimization::OptimizationOptions</a>&#160;</td><td class="memItemRight" valign="bottom"><b>optOptions</b></td></tr>
+<tr class="separator:a1d489a57195cc48dffc56770485b3f0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d1876b69c56b871805c55998b72c1c6" id="r_a7d1876b69c56b871805c55998b72c1c6"><td class="memItemLeft" align="right" valign="top"><a id="a7d1876b69c56b871805c55998b72c1c6" name="a7d1876b69c56b871805c55998b72c1c6"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>studyFolder</b></td></tr>
+<tr class="separator:a7d1876b69c56b871805c55998b72c1c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e7a45934ee6dab5510ee27a6ea1875c" id="r_a2e7a45934ee6dab5510ee27a6ea1875c"><td class="memItemLeft" align="right" valign="top"><a id="a2e7a45934ee6dab5510ee27a6ea1875c" name="a2e7a45934ee6dab5510ee27a6ea1875c"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>allThermal</b> = false</td></tr>
+<tr class="memdesc:a2e7a45934ee6dab5510ee27a6ea1875c"><td class="mdescLeft">&#160;</td><td class="mdescRight">generate TS for all clusters if activated <br /></td></tr>
+<tr class="separator:a2e7a45934ee6dab5510ee27a6ea1875c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc99eb6ef85bd312b7e1cbf7ce588343" id="r_adc99eb6ef85bd312b7e1cbf7ce588343"><td class="memItemLeft" align="right" valign="top"><a id="adc99eb6ef85bd312b7e1cbf7ce588343" name="adc99eb6ef85bd312b7e1cbf7ce588343"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>thermalListToGen</b> = &quot;&quot;</td></tr>
+<tr class="memdesc:adc99eb6ef85bd312b7e1cbf7ce588343"><td class="mdescLeft">&#160;</td><td class="mdescRight">generate TS for a list "area.cluster;area2.cluster2;" <br /></td></tr>
+<tr class="separator:adc99eb6ef85bd312b7e1cbf7ce588343"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Command line settings for launching the simulation. </p>
-</div><hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/solver/misc/include/antares/solver/misc/<a class="el" href="options_8h_source.html">options.h</a></li>
+</div><hr/>The documentation for this struct was generated from the following files:<ul>
+<li>src/solver/misc/include/antares/solver/misc/<a class="el" href="solver_2misc_2include_2antares_2solver_2misc_2options_8h_source.html">options.h</a></li>
+<li>src/tools/ts-generator/<b>main.cpp</b></li>
 <li>src/solver/misc/<b>options.cpp</b></li>
 </ul>
 </div><!-- contents -->

@@ -1,7 +1,7 @@
 var searchData=
 [
   ['tag_0',['tag',['../classIItem.html#a8c33f81b0a0a56b3ca764d26b08cf62c',1,'IItem']]],
-  ['text_1',['text',['../classAntares_1_1Date_1_1Calendar.html#a6536d7d9273de79e09c1df42150ea3ab',1,'Antares::Date::Calendar::text'],['../classSearchToken.html#a44fba52cdd9b9146823a757a230dd4d9',1,'SearchToken::text'],['../classIItem_1_1Tag.html#ac96f2e7cdb26c00e59e50692fe0f131e',1,'IItem::Tag::text']]],
+  ['text_1',['text',['../classAntares_1_1Date_1_1Calendar.html#a1dd550b79fa78b4750f1eb8e23ab4250',1,'Antares::Date::Calendar::text'],['../classSearchToken.html#a44fba52cdd9b9146823a757a230dd4d9',1,'SearchToken::text'],['../classIItem_1_1Tag.html#ac96f2e7cdb26c00e59e50692fe0f131e',1,'IItem::Tag::text']]],
   ['textlabel_2',['textLabel',['../classAntares_1_1Component_1_1Datagrid_1_1InternalState.html#af070ca2f056850e3aca7e39edae27a2b',1,'Antares::Component::Datagrid::InternalState']]],
   ['textvalue_3',['textValue',['../classAntares_1_1Component_1_1Datagrid_1_1InternalState.html#ac38d849a95394161bbe2ca079d6a400c',1,'Antares::Component::Datagrid::InternalState']]],
   ['thclusters_4',['ThClusters',['../classAntares_1_1Window_1_1Inspector_1_1InspectorData.html#ae3330d595ced85f0d0204b7f99533e52',1,'Antares::Window::Inspector::InspectorData']]],
@@ -15,7 +15,7 @@ var searchData=
   ['thermalclusterproductionforyear_12',['thermalClusterProductionForYear',['../classAntares_1_1Solver_1_1Variable_1_1State.html#ad383755782fbb9dd952c648be9fa5356',1,'Antares::Solver::Variable::State']]],
   ['thermalclustersoperatingcost_13',['thermalClustersOperatingCost',['../classAntares_1_1Solver_1_1Variable_1_1ThermalState_1_1StateForAnArea.html#a0e7f417a8ed9da6465a5733a1f6364ff',1,'Antares::Solver::Variable::ThermalState::StateForAnArea']]],
   ['thermalclustersproductions_14',['thermalClustersProductions',['../classAntares_1_1Solver_1_1Variable_1_1ThermalState_1_1StateForAnArea.html#a69e64f3ddf551f791ca1cc8e5fe850a1',1,'Antares::Solver::Variable::ThermalState::StateForAnArea']]],
-  ['thermallisttogen_15',['thermalListToGen',['../structTsGeneratorSettings.html#a1ceeb4b01cdff76701bf73cbfc150cef',1,'TsGeneratorSettings']]],
+  ['thermallisttogen_15',['thermalListToGen',['../classSettings.html#adc99eb6ef85bd312b7e1cbf7ce588343',1,'Settings']]],
   ['thermalplanttotalcount_16',['thermalPlantTotalCount',['../classAntares_1_1Data_1_1StudyRuntimeInfos.html#a8414a385abaeb4403a900dfade7523a7',1,'Antares::Data::StudyRuntimeInfos']]],
   ['thermaltsrefresh_17',['thermalTSRefresh',['../classAntares_1_1Data_1_1StudyRuntimeInfos.html#a168022ca9dc58de1f91001cb54c96887',1,'Antares::Data::StudyRuntimeInfos']]],
   ['thresholddisplayviolations_18',['thresholdDisplayViolations',['../classAntares_1_1Data_1_1AdequacyPatch_1_1CurtailmentSharing.html#a74bfb141b03961aeebbcd14201a33734',1,'Antares::Data::AdequacyPatch::CurtailmentSharing']]],
@@ -25,7 +25,7 @@ var searchData=
   ['timeout_22',['timeout',['../classFolderRemover.html#af2e7699215436aea101c134639140d7e',1,'FolderRemover']]],
   ['timeseries_23',['timeseries',['../classAntares_1_1Data_1_1Correlation.html#ab6eb0920407a56a08a9485ff8d0e0a46',1,'Antares::Data::Correlation::timeSeries'],['../classAntares_1_1Data_1_1XCast.html#af2e5262633bfee38c771cda8554b9c16',1,'Antares::Data::XCast::timeSeries']]],
   ['timeseriesaccuracyoncorrelation_24',['timeSeriesAccuracyOnCorrelation',['../classAntares_1_1Data_1_1Parameters.html#ab1c22ca9d04644cf513fa6475d8d80d9',1,'Antares::Data::Parameters']]],
-  ['timeseriesnumbers_25',['timeseriesNumbers',['../classAntares_1_1Data_1_1AreaLink.html#a811b2ef6a22c3f7a920679c00663a50d',1,'Antares::Data::AreaLink']]],
+  ['timeseriesnumbers_25',['timeseriesnumbers',['../classAntares_1_1Data_1_1AreaLink.html#af1a75edc5793c0aba7df1b3f1ae56954',1,'Antares::Data::AreaLink::timeseriesNumbers'],['../classAntares_1_1Data_1_1DataSeriesHydro.html#a93a0b52ec251f04201b93278b6e644b1',1,'Antares::Data::DataSeriesHydro::timeseriesNumbers']]],
   ['timeseriestoarchive_26',['timeSeriesToArchive',['../classAntares_1_1Data_1_1Parameters.html#a183ed870c4447452af99f780671a3cd1',1,'Antares::Data::Parameters']]],
   ['timeseriestogenerate_27',['timeSeriesToGenerate',['../classAntares_1_1Data_1_1Parameters.html#a7f9aa8bc81c74fed545ae3cbd657d7e5',1,'Antares::Data::Parameters']]],
   ['timeseriestorefresh_28',['timeSeriesToRefresh',['../classAntares_1_1Data_1_1Parameters.html#ac7200d752c0a628dd8bc79ce05c8ec6c',1,'Antares::Data::Parameters']]],
@@ -40,5 +40,6 @@ var searchData=
   ['translation_37',['translation',['../classAntares_1_1Data_1_1XCast.html#a833afdd54049131ed6d67d579f2a1490',1,'Antares::Data::XCast']]],
   ['transmissioncapacities_38',['transmissioncapacities',['../classAntares_1_1Data_1_1AreaLink.html#a1cc92e1adb9682c61accaeb5a22caa97',1,'Antares::Data::AreaLink::transmissionCapacities'],['../classAntares_1_1Data_1_1Parameters.html#a18bae6dbe88f0d45d7c1a38e69284719',1,'Antares::Data::Parameters::transmissionCapacities']]],
   ['tsgeneratorsonly_39',['tsGeneratorsOnly',['../classSettings.html#a7a85732f59739f454763d67bf3b89789',1,'Settings']]],
-  ['type_40',['type',['../classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1ConstraintsBuilder_1_1Links_1_1Record.html#a11c38e031031310b219d98d2001e5dc9',1,'Antares::Component::Datagrid::Renderer::ConstraintsBuilder::Links::Record::type'],['../classAntares_1_1Window_1_1OutputViewer_1_1Layer.html#aa6174b505040405711a8281b19a13bf1',1,'Antares::Window::OutputViewer::Layer::type']]]
+  ['tsnumbers_40',['tsNumbers',['../classAntares_1_1Data_1_1Cluster.html#add89e71aa84e280956d2d0f463f80e37',1,'Antares::Data::Cluster']]],
+  ['type_41',['type',['../classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1ConstraintsBuilder_1_1Links_1_1Record.html#a11c38e031031310b219d98d2001e5dc9',1,'Antares::Component::Datagrid::Renderer::ConstraintsBuilder::Links::Record::type'],['../classAntares_1_1Window_1_1OutputViewer_1_1Layer.html#aa6174b505040405711a8281b19a13bf1',1,'Antares::Window::OutputViewer::Layer::type']]]
 ];
