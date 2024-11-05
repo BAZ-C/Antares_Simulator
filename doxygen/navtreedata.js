@@ -28,24 +28,38 @@ var NAVTREE =
     [ "Links:", "index.html#autotoc_md1", null ],
     [ "Installation", "index.html#autotoc_md2", null ],
     [ "Source Code Content", "index.html#autotoc_md3", null ],
+    [ "Antares Cucumber Tests", "md_src_2tests_2cucumber_2readme.html", [
+      [ "Tests structure", "md_src_2tests_2cucumber_2readme.html#autotoc_md5", [
+        [ "Features, scenarios and tags", "md_src_2tests_2cucumber_2readme.html#autotoc_md6", null ],
+        [ "Steps structure", "md_src_2tests_2cucumber_2readme.html#autotoc_md7", null ]
+      ] ],
+      [ "Running the tests", "md_src_2tests_2cucumber_2readme.html#autotoc_md8", [
+        [ "On your PC", "md_src_2tests_2cucumber_2readme.html#autotoc_md9", null ],
+        [ "In the CI", "md_src_2tests_2cucumber_2readme.html#autotoc_md10", null ]
+      ] ],
+      [ "Under the hood", "md_src_2tests_2cucumber_2readme.html#autotoc_md11", [
+        [ "Test files", "md_src_2tests_2cucumber_2readme.html#autotoc_md12", null ],
+        [ "Code-behind", "md_src_2tests_2cucumber_2readme.html#autotoc_md13", null ]
+      ] ]
+    ] ],
     [ "How does the automatic testing script system work ?", "md_src_2tests_2run-study-tests_2readme.html", [
-      [ "Introduction", "md_src_2tests_2run-study-tests_2readme.html#autotoc_md5", null ],
-      [ "Entry points to the automatic testing script system", "md_src_2tests_2run-study-tests_2readme.html#autotoc_md6", null ],
-      [ "File test_from_json.py", "md_src_2tests_2run-study-tests_2readme.html#autotoc_md7", null ],
-      [ "Fixtures", "md_src_2tests_2run-study-tests_2readme.html#autotoc_md8", null ],
-      [ "Tests parametrization", "md_src_2tests_2run-study-tests_2readme.html#autotoc_md9", null ],
-      [ "The test's body", "md_src_2tests_2run-study-tests_2readme.html#autotoc_md10", [
-        [ "<ins>Run fixtures</ins>", "md_src_2tests_2run-study-tests_2readme.html#autotoc_md11", null ],
-        [ "<ins>Checks creation factory</ins>", "md_src_2tests_2run-study-tests_2readme.html#autotoc_md12", null ],
-        [ "<ins>Running the checks</ins>", "md_src_2tests_2run-study-tests_2readme.html#autotoc_md13", null ],
-        [ "<ins>End of tests</ins>", "md_src_2tests_2run-study-tests_2readme.html#autotoc_md14", null ]
+      [ "Introduction", "md_src_2tests_2run-study-tests_2readme.html#autotoc_md16", null ],
+      [ "Entry points to the automatic testing script system", "md_src_2tests_2run-study-tests_2readme.html#autotoc_md17", null ],
+      [ "File test_from_json.py", "md_src_2tests_2run-study-tests_2readme.html#autotoc_md18", null ],
+      [ "Fixtures", "md_src_2tests_2run-study-tests_2readme.html#autotoc_md19", null ],
+      [ "Tests parametrization", "md_src_2tests_2run-study-tests_2readme.html#autotoc_md20", null ],
+      [ "The test's body", "md_src_2tests_2run-study-tests_2readme.html#autotoc_md21", [
+        [ "<ins>Run fixtures</ins>", "md_src_2tests_2run-study-tests_2readme.html#autotoc_md22", null ],
+        [ "<ins>Checks creation factory</ins>", "md_src_2tests_2run-study-tests_2readme.html#autotoc_md23", null ],
+        [ "<ins>Running the checks</ins>", "md_src_2tests_2run-study-tests_2readme.html#autotoc_md24", null ],
+        [ "<ins>End of tests</ins>", "md_src_2tests_2run-study-tests_2readme.html#autotoc_md25", null ]
       ] ],
-      [ "How to add a check on a test ?", "md_src_2tests_2run-study-tests_2readme.html#autotoc_md15", [
-        [ "What to do ?", "md_src_2tests_2run-study-tests_2readme.html#autotoc_md16", null ],
-        [ "What NOT to do ?", "md_src_2tests_2run-study-tests_2readme.html#autotoc_md17", null ]
+      [ "How to add a check on a test ?", "md_src_2tests_2run-study-tests_2readme.html#autotoc_md26", [
+        [ "What to do ?", "md_src_2tests_2run-study-tests_2readme.html#autotoc_md27", null ],
+        [ "What NOT to do ?", "md_src_2tests_2run-study-tests_2readme.html#autotoc_md28", null ]
       ] ],
-      [ "Running the script", "md_src_2tests_2run-study-tests_2readme.html#autotoc_md18", null ],
-      [ "TO DO", "md_src_2tests_2run-study-tests_2readme.html#autotoc_md19", null ]
+      [ "Running the script", "md_src_2tests_2run-study-tests_2readme.html#autotoc_md29", null ],
+      [ "TO DO", "md_src_2tests_2run-study-tests_2readme.html#autotoc_md30", null ]
     ] ],
     [ "Todo List", "todo.html", null ],
     [ "Topics", "topics.html", "topics" ],
@@ -57,6 +71,7 @@ var NAVTREE =
         [ "Typedefs", "namespacemembers_type.html", null ]
       ] ]
     ] ],
+    [ "Concepts", "concepts.html", "concepts" ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -79,31 +94,32 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "API_8h_source.html",
-"classAntares_1_1Action_1_1AntaresStudy_1_1Area_1_1Create.html#a75516c75c2c141a8f3eda93f77e5b605",
-"classAntares_1_1Action_1_1Settings_1_1SuffixAreaName.html#a1986a18aa38f0d191ecaeab5cda7af86",
-"classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1BindingConstraint_1_1LinkWeights.html#a62ac760f4dd2f4ff413c45e7b3db28e1",
-"classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1LogFile.html#a68133cecb3aa8a3b70e6bcf419a79142",
-"classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1XCastCoefficients.html#afe9d2a87db1cf3f6e4c659d66fd2e1d4",
-"classAntares_1_1Component_1_1ListboxPanel.html#aa3509391e3e104c90ab2dceda4f2a34c",
-"classAntares_1_1Data_1_1AreaList.html#ad1c4a464812ae2f175409270f5b12ccd",
-"classAntares_1_1Data_1_1Parameters.html",
-"classAntares_1_1Data_1_1Sets.html#a2bcde13448678981edcc87a199d4060b",
-"classAntares_1_1Data_1_1ThermalCluster.html#a1c269b0f39a7e8f25fef429d655f9a89aec3b4d91eacab54efc1e7fafcfd569a1",
-"classAntares_1_1Forms_1_1MainFormData.html#a37123ca5b75f18ae9f2904e3d6b0ab2b",
-"classAntares_1_1Map_1_1Tool_1_1Tool.html#ab7c181225bba7c1c14aca3669a7b07bd",
-"classAntares_1_1Solver_1_1Simulation_1_1Economy.html#a561e37e845aa5746486a7e6252ea2cab",
-"classAntares_1_1Solver_1_1Variable_1_1Economy_1_1ProductionByRenewablePlant.html",
-"classAntares_1_1Solver_1_1Variable_1_1SurveyResults.html#aa5a1b7d507f6d77d2aca09f0add98fa1",
-"classAntares_1_1Toolbox_1_1Process_1_1JobProcess.html#a87a623d36af7c0b5eafea5b81230faac",
-"classAntares_1_1Window_1_1OutputViewer_1_1SpotlightProviderGlobalSelection.html#ab7f19d367caaae5f8ab954054077aa25",
-"classIItem.html#a9e123aa4b932990a15b3715f518dec04",
-"classnullMPSwriter.html",
-"dir_923b4a0512d472bcb44e851ab0966531.html",
-"functions_type.html",
-"month_8h_source.html",
-"structAntares_1_1Data_1_1Parameters_1_1UCMode.html#aa0b613cb0812e2bb6231b6f65b54aa01",
-"structAntares_1_1Solver_1_1Variable_1_1Economy_1_1VCardSTSbyGroup.html#a2f63c70b0beb9c4342e6aac984392d17",
-"structNbUnitsOutageLessThanNbUnitsStopData.html"
+"classAntares_1_1Action_1_1ActionInformations.html",
+"classAntares_1_1Action_1_1Context.html#a84025282d0f019f5c552429ffdc8aa13",
+"classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1Analyzer_1_1Areas.html#ad7abc4382b86311a1de193b99a4ed162",
+"classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1LayersVisibility.html#a23e34005e8424c41aaec32daae234674",
+"classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1TimeSeriesSolar.html#a33fb939d5ed258f91080ae31c60ab487",
+"classAntares_1_1Component_1_1HTMLListbox_1_1Item_1_1Area.html#abe8a63aa18d71d07db2c6930130444b9",
+"classAntares_1_1Data_1_1AreaLink.html#ac32b5df249acdb8872d1795c37bf0176",
+"classAntares_1_1Data_1_1Load_1_1Container.html#a20327df056b5cb664c9de1e0de9d7d89",
+"classAntares_1_1Data_1_1ScenarioBuilder_1_1hydroLevelsData.html",
+"classAntares_1_1Data_1_1StudyVersion.html",
+"classAntares_1_1Forms_1_1ApplWnd.html#affe5737c7b9bc45a909ce7b08edb8d7e",
+"classAntares_1_1Map_1_1Tool_1_1Tool.html#a0098121f2630f936fb25cfb316be1448",
+"classAntares_1_1Solver_1_1Modeler_1_1Api_1_1LinearProblemFiller.html",
+"classAntares_1_1Solver_1_1Variable_1_1Economy_1_1DispatchableGeneration.html#a8a08424765e6011327719d1b318f04de",
+"classAntares_1_1Solver_1_1Variable_1_1IVariable.html#abe6734e25da2181b16bf3574128ace6f",
+"classAntares_1_1Toolbox_1_1Filter_1_1ColumnIndex.html#a625319476e9bc1124e6e20d3563539d0",
+"classAntares_1_1Window_1_1FileSearchProvider.html#a5e95fe53be77d994e90d7e1a9b59b226",
+"classAntares_1_1Window_1_1assetTypeButton.html",
+"classMaxPumpingGroup.html",
+"decal-area-position_8hxx_source.html",
+"dir_ae3cd540350e6ca1210a5ba831e01cd8.html",
+"functions_vars_f.html",
+"namespaceLocalPolicy.html#a47b0c7226dcf5d16ee301e7bbc468b14",
+"structAntares_1_1Data_1_1Parameters_1_1IncludeOptions.html#a9e5852bd63d85ffeaab67df71656e190",
+"structAntares_1_1Solver_1_1Variable_1_1Economy_1_1VCardProductionByRenewablePlant.html#a3c6b2721c744e9eac116a64bcbbfbed6",
+"structFictitiousLoadData.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -25,10 +25,8 @@ var classAntares_1_1Data_1_1AreaList =
     [ "fixOrientationForAllInterconnections", "classAntares_1_1Data_1_1AreaList.html#a8d39bfdd5dcea74fac7b674b1a408fd6", null ],
     [ "forceReload", "classAntares_1_1Data_1_1AreaList.html#a57d8c1a67314dd2999e1299ca744c3e5", null ],
     [ "loadFromFolder", "classAntares_1_1Data_1_1AreaList.html#a3e9983cdc3264544fc16bb192a35c2ab", null ],
-    [ "loadListFromFile", "classAntares_1_1Data_1_1AreaList.html#a328b1ba6663bc5c53c0ada6a65b22225", null ],
+    [ "loadListFromFile", "classAntares_1_1Data_1_1AreaList.html#a9c307ced045f62ff3eae9a4fa79ff987", null ],
     [ "markAsModified", "classAntares_1_1Data_1_1AreaList.html#a3597b0556bb7b0a4fcd97eff6495d5a4", null ],
-    [ "memoryUsage", "classAntares_1_1Data_1_1AreaList.html#a304cd882e5be932e517f9dcd92e0f253", null ],
-    [ "memoryUsageAveragePerArea", "classAntares_1_1Data_1_1AreaList.html#abb6793d7837c87493b31c75efd0a10be", null ],
     [ "operator[]", "classAntares_1_1Data_1_1AreaList.html#a5d52f4a8b940bd8a3232900c15cb9258", null ],
     [ "preloadAndMarkAsModifiedAllInvalidatedAreas", "classAntares_1_1Data_1_1AreaList.html#a2201f84fec8be11ce9f0768b2191c793", null ],
     [ "rebuildIndexes", "classAntares_1_1Data_1_1AreaList.html#a14d2244c78b61fe4880eab4c56cd5377", null ],
@@ -47,6 +45,6 @@ var classAntares_1_1Data_1_1AreaList =
     [ "size", "classAntares_1_1Data_1_1AreaList.html#aef727d85346e2144e5978719f78b516e", null ],
     [ "updateNameIDSet", "classAntares_1_1Data_1_1AreaList.html#a600e35fa262c7fea7de82a4f95c4cc7a", null ],
     [ "areas", "classAntares_1_1Data_1_1AreaList.html#a33794771a577c317dc7450f55cd12da6", null ],
-    [ "byIndex", "classAntares_1_1Data_1_1AreaList.html#a9af1ce76fa2e13ff5fdf650710b0b054", null ],
+    [ "byIndex", "classAntares_1_1Data_1_1AreaList.html#abc0bdb59b3d70e7a2a6b61ba4376a391", null ],
     [ "nameidSet", "classAntares_1_1Data_1_1AreaList.html#a923c210f204c832ab5721052fd8f1c06", null ]
 ];
