@@ -50,12 +50,11 @@ jobs:
       - name: Build the image and Antares
         run: |
             docker build \
-            -t antares:centos7 -f {{ env.DOCKERFILE }} .
-#          \
-#            --build-arg="ORTOOLS_TAG=${{ env.ORTOOLS_TAG }}" \
-#            --build-arg="BRANCH=${{ env.REF }}" \
-#            --build-arg="NPROC=$(nproc)" \
-#            -f {{ env.DOCKERFILE }} .
+            -t antares_centos7  \
+            --build-arg="ORTOOLS_TAG=${{ env.ORTOOLS_TAG }}" \
+            --build-arg="BRANCH=${{ env.REF }}" \
+            --build-arg="NPROC=$(nproc)" \
+            -f {{ env.DOCKERFILE }} .
 
 
       - name: create without starting a container && retrieve the .tgz
