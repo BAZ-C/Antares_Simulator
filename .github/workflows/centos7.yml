@@ -35,12 +35,20 @@ jobs:
 
     steps:
 
-      - name: Build the image and Antares
+      - name Get ortools Tags
+        run: |
+          git clone --no-checkout https://github.com/BAZ-C/Antares_Simulator.git 
+          cd Antares_Simulator
+          git checkout ${{ env.REF }} -- ortools_tag
+          echo "ORTOOLS_TAG=$(cat ortools_tag)" >> $GITHUB_ENV
+          
+
+- name: Build the image and Antares
         run: |
             docker build \
             --target build \
             -t Antares:centos7 \
-            --build-arg="ORTOOLS_TAG=$(cat ortools_tag)" \
+            --build-arg="ORTOOLS_TAG=${{ env.ORTOOLS_TAG }}" \
             --build-arg="BRANCH=${{ env.REF }}" \
             --build-arg="NPROC=$(nproc)" \
             -f docker/Dockerfile .
