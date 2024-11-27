@@ -43,19 +43,18 @@ jobs:
           git sparse-checkout set ortools_tag docker/Dockerfile
           git checkout ${{ env.REF }}
           echo "ORTOOLS_TAG=$(cat ortools_tag)" >> $GITHUB_ENV
-          echo "DOCKERDIR=$(pwd)/docker" >> $GITHUB_ENV
+          echo "DOCKERFILE=$(pwd)/docker/Dockerfile" >> $GITHUB_ENV
           
           
 
       - name: Build the image and Antares
         run: |
-            cd ${{ env.DOCKERDIR }}
             docker build \
             -t antares:centos7  \
             --build-arg="ORTOOLS_TAG=${{ env.ORTOOLS_TAG }}" \
             --build-arg="BRANCH=${{ env.REF }}" \
             --build-arg="NPROC=$(nproc)" \
-            -f Dockerfile .
+            -f ${{ env.DOCKERFILE }} .
 
 
       - name: create without starting a container && retrieve the .tgz
