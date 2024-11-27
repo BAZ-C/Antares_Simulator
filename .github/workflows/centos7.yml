@@ -43,11 +43,14 @@ jobs:
           git sparse-checkout set ortools_tag docker/Dockerfile
           git checkout ${{ env.REF }}
           echo "ORTOOLS_TAG=$(cat ortools_tag)" >> $GITHUB_ENV
+          pwd
           
 
       - name: Build the image and Antares
         run: |
-            pwd \
+            pwd 
+            ls docker 
+            cat docker/Dockerfile 
             docker build \
             --target build \
             -t antares:centos7 \
