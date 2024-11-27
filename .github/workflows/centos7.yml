@@ -57,7 +57,7 @@ jobs:
             -f ${{ env.DOCKERFILE }} .
 
 
-      - name: create without starting a container && retrieve the .tgz
+      - name: create a container without starting it && retrieve the .tgz
         run: |
           container_id=$(docker create antares:centos7)
           mkdir archive
@@ -79,10 +79,3 @@ jobs:
         run: |
           gh release upload "$tag" archive/*.tar.gz _build/*.rpm
 
-      - name: Cache vcpkg binary dir
-        if: always()
-        id: save-cache-vcpkg-binary
-        uses: actions/cache/save@v3
-        with:
-          path: ${{ env.VCPKG_CACHE_DIR }}
-          key: vcpkg-cache-centos7-${{ hashFiles('src/vcpkg.json', '.git/modules/vcpkg/HEAD') }}
