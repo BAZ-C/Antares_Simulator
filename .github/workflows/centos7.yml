@@ -6,7 +6,7 @@ on:
   push:
     branches:
       - develop
-      - feature/centos-ci
+      - only-centos-ci
       - dependabot/*
   schedule:
     - cron: '21 2 * * *'
@@ -37,16 +37,15 @@ jobs:
 #    container: 'antaresrte/rte-antares:centos7-simulator-no-deps'
 
     steps:
+
       - name: Build the image and Antares
-          run: |
+        run: |
             docker build \
             --target build \
             -t Antares:centos7 \
             --build-arg="ORTOOLS_TAG=$(cat ortools_tag)" \
             --build-arg="BRANCH=${{ env.REF }}" \
             --build-arg="NPROC=$(nproc)" \
-            --build-arg="OR_REPO=${{ env.OR_REPO }}" \
-            --build-arg="OR_REF=${{ env.OR_REF }}" \
             -f docker/Dockerfile .
 
 
