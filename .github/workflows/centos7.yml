@@ -49,7 +49,7 @@ jobs:
         run: |
             docker build \
             --target build \
-            -t Antares:centos7 \
+            -t antares:centos7 \
             --build-arg="ORTOOLS_TAG=${{ env.ORTOOLS_TAG }}" \
             --build-arg="BRANCH=${{ env.REF }}" \
             --build-arg="NPROC=$(nproc)" \
