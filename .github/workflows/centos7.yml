@@ -49,7 +49,7 @@ jobs:
 
       - name: Build the image and Antares
         run: |
-            cd {{ env.DOCKERDIR }}
+            cd ${{ env.DOCKERDIR }}
             docker build \
             -t antares:centos7  \
             --build-arg="ORTOOLS_TAG=${{ env.ORTOOLS_TAG }}" \
