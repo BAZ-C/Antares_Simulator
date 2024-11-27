@@ -52,9 +52,10 @@ RUN cd /workspace && \
     git submodule update --init vcpkg && ./vcpkg/bootstrap-vcpkg.sh -disableMetrics && \
     export VCPKG_ROOT=/workspace/Antares_Simulator/vcpkg
 
+WORKDIR /workspace/Antares_Simulator
+
 RUN  source /opt/rh/devtoolset-11/enable && \
      source /opt/rh/rh-git227/enable && \
-     cd /workspace/Antares_Simulator && \
      cmake -B _build -S src \
     -DCMAKE_C_COMPILER_LAUNCHER=ccache \
     -DCMAKE_CXX_COMPILER_LAUNCHER=ccache \
@@ -69,7 +70,6 @@ RUN  source /opt/rh/devtoolset-11/enable && \
 ARG nproc=2
 RUN  source /opt/rh/devtoolset-11/enable && \
      source /opt/rh/rh-git227/enable && \
-     cd /workspace/Antares_Simulator && \
      cmake --build _build --config Release -j${nproc} &&\
      ccache -s
 
