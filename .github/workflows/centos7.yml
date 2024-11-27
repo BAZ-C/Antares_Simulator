@@ -43,7 +43,7 @@ jobs:
           echo "ORTOOLS_TAG=$(cat ortools_tag)" >> $GITHUB_ENV
           
 
-- name: Build the image and Antares
+      - name: Build the image and Antares
         run: |
             docker build \
             --target build \
