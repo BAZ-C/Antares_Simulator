@@ -67,10 +67,10 @@ RUN  source /opt/rh/devtoolset-11/enable && \
     -DBUILD_UI=OFF \
     -DCMAKE_PREFIX_PATH=/ortools/install
 
-ARG nproc=2
+ARG NPROC=2
 RUN  source /opt/rh/devtoolset-11/enable && \
      source /opt/rh/rh-git227/enable && \
-     cmake --build _build --config Release -j${nproc} &&\
+     cmake --build _build --config Release -j${NPROC} &&\
      ccache -s
 
 #Installer .rpm creation
