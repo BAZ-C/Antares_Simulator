@@ -32,7 +32,6 @@ jobs:
     name: Build
 
     runs-on: ubuntu-latest
-#    container: 'antaresrte/rte-antares:centos7-simulator-no-deps'
 
     steps:
 
