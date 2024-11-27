@@ -55,7 +55,7 @@ jobs:
             --build-arg="ORTOOLS_TAG=${{ env.ORTOOLS_TAG }}" \
             --build-arg="BRANCH=${{ env.REF }}" \
             --build-arg="NPROC=$(nproc)" \
-            -f dockerfile .
+            -f Dockerfile .
 
 
       - name: create without starting a container && retrieve the .tgz
