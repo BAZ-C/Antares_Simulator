@@ -481,6 +481,12 @@ var annotated_dup =
             [ "NoQueueService", "classAntares_1_1Solver_1_1Initialization_1_1Error_1_1NoQueueService.html", null ]
           ] ]
         ] ],
+        [ "ModelConverter", null, [
+          [ "ConvertorVisitor", "classAntares_1_1Solver_1_1ModelConverter_1_1ConvertorVisitor.html", "classAntares_1_1Solver_1_1ModelConverter_1_1ConvertorVisitor" ],
+          [ "NoParameterOrVariableWithThisName", "classAntares_1_1Solver_1_1ModelConverter_1_1NoParameterOrVariableWithThisName.html", null ],
+          [ "NotImplemented", "classAntares_1_1Solver_1_1ModelConverter_1_1NotImplemented.html", null ],
+          [ "UnknownTypeException", "classAntares_1_1Solver_1_1ModelConverter_1_1UnknownTypeException.html", null ]
+        ] ],
         [ "Modeler", null, [
           [ "Api", "namespaceAntares_1_1Solver_1_1Modeler_1_1Api.html", [
             [ "FillContext", "structAntares_1_1Solver_1_1Modeler_1_1Api_1_1FillContext.html", null ],
@@ -541,20 +547,6 @@ var annotated_dup =
           [ "SumNode", "classAntares_1_1Solver_1_1Nodes_1_1SumNode.html", "classAntares_1_1Solver_1_1Nodes_1_1SumNode" ],
           [ "UnaryNode", "classAntares_1_1Solver_1_1Nodes_1_1UnaryNode.html", "classAntares_1_1Solver_1_1Nodes_1_1UnaryNode" ],
           [ "VariableNode", "classAntares_1_1Solver_1_1Nodes_1_1VariableNode.html", null ]
-        ] ],
-        [ "ObjectModel", null, [
-          [ "Constraint", "classAntares_1_1Solver_1_1ObjectModel_1_1Constraint.html", null ],
-          [ "Expression", "classAntares_1_1Solver_1_1ObjectModel_1_1Expression.html", null ],
-          [ "Library", "classAntares_1_1Solver_1_1ObjectModel_1_1Library.html", null ],
-          [ "LibraryBuilder", "classAntares_1_1Solver_1_1ObjectModel_1_1LibraryBuilder.html", "classAntares_1_1Solver_1_1ObjectModel_1_1LibraryBuilder" ],
-          [ "Model", "classAntares_1_1Solver_1_1ObjectModel_1_1Model.html", null ],
-          [ "ModelBuilder", "classAntares_1_1Solver_1_1ObjectModel_1_1ModelBuilder.html", "classAntares_1_1Solver_1_1ObjectModel_1_1ModelBuilder" ],
-          [ "Parameter", "classAntares_1_1Solver_1_1ObjectModel_1_1Parameter.html", "classAntares_1_1Solver_1_1ObjectModel_1_1Parameter" ],
-          [ "Port", "classAntares_1_1Solver_1_1ObjectModel_1_1Port.html", null ],
-          [ "PortField", "classAntares_1_1Solver_1_1ObjectModel_1_1PortField.html", null ],
-          [ "PortFieldDefinition", "classAntares_1_1Solver_1_1ObjectModel_1_1PortFieldDefinition.html", null ],
-          [ "PortType", "classAntares_1_1Solver_1_1ObjectModel_1_1PortType.html", null ],
-          [ "Variable", "classAntares_1_1Solver_1_1ObjectModel_1_1Variable.html", null ]
         ] ],
         [ "Optimization", null, [
           [ "CsrQuadraticProblem", "classAntares_1_1Solver_1_1Optimization_1_1CsrQuadraticProblem.html", null ],
@@ -799,6 +791,7 @@ var annotated_dup =
           [ "EvalVisitorNotImplemented", "classAntares_1_1Solver_1_1Visitors_1_1EvalVisitorNotImplemented.html", null ],
           [ "InvalidNode", "classAntares_1_1Solver_1_1Visitors_1_1InvalidNode.html", null ],
           [ "LinearityVisitor", "classAntares_1_1Solver_1_1Visitors_1_1LinearityVisitor.html", null ],
+          [ "LogSink", "structAntares_1_1Solver_1_1Visitors_1_1LogSink.html", null ],
           [ "NodeVisitor", "classAntares_1_1Solver_1_1Visitors_1_1NodeVisitor.html", "classAntares_1_1Solver_1_1Visitors_1_1NodeVisitor" ],
           [ "NodeVisitsProvider", "structAntares_1_1Solver_1_1Visitors_1_1NodeVisitsProvider.html", null ],
           [ "PortFieldSubstitutionContext", "structAntares_1_1Solver_1_1Visitors_1_1PortFieldSubstitutionContext.html", null ],
@@ -826,6 +819,7 @@ var annotated_dup =
         [ "IResultWriter", "classAntares_1_1Solver_1_1IResultWriter.html", "classAntares_1_1Solver_1_1IResultWriter" ],
         [ "LoadAreaNumberOfTSretriever", "classAntares_1_1Solver_1_1LoadAreaNumberOfTSretriever.html", null ],
         [ "LpsFromAntares", "classAntares_1_1Solver_1_1LpsFromAntares.html", null ],
+        [ "NodeRegistry", "classAntares_1_1Solver_1_1NodeRegistry.html", null ],
         [ "NullResultWriter", "classAntares_1_1Solver_1_1NullResultWriter.html", null ],
         [ "PortFieldHash", "structAntares_1_1Solver_1_1PortFieldHash.html", null ],
         [ "Progression", "classAntares_1_1Solver_1_1Progression.html", "classAntares_1_1Solver_1_1Progression" ],
@@ -844,6 +838,28 @@ var annotated_dup =
       [ "Statistics", null, [
         [ "LogsDumper", "classAntares_1_1Statistics_1_1LogsDumper.html", null ],
         [ "Updater", "classAntares_1_1Statistics_1_1Updater.html", null ]
+      ] ],
+      [ "Study", null, [
+        [ "SystemModel", null, [
+          [ "Component", "classAntares_1_1Study_1_1SystemModel_1_1Component.html", null ],
+          [ "ComponentBuilder", "classAntares_1_1Study_1_1SystemModel_1_1ComponentBuilder.html", "classAntares_1_1Study_1_1SystemModel_1_1ComponentBuilder" ],
+          [ "ComponentData", "structAntares_1_1Study_1_1SystemModel_1_1ComponentData.html", null ],
+          [ "Constraint", "classAntares_1_1Study_1_1SystemModel_1_1Constraint.html", null ],
+          [ "Expression", "classAntares_1_1Study_1_1SystemModel_1_1Expression.html", null ],
+          [ "Library", "classAntares_1_1Study_1_1SystemModel_1_1Library.html", null ],
+          [ "LibraryBuilder", "classAntares_1_1Study_1_1SystemModel_1_1LibraryBuilder.html", "classAntares_1_1Study_1_1SystemModel_1_1LibraryBuilder" ],
+          [ "Model", "classAntares_1_1Study_1_1SystemModel_1_1Model.html", null ],
+          [ "ModelBuilder", "classAntares_1_1Study_1_1SystemModel_1_1ModelBuilder.html", "classAntares_1_1Study_1_1SystemModel_1_1ModelBuilder" ],
+          [ "Parameter", "classAntares_1_1Study_1_1SystemModel_1_1Parameter.html", "classAntares_1_1Study_1_1SystemModel_1_1Parameter" ],
+          [ "Port", "classAntares_1_1Study_1_1SystemModel_1_1Port.html", null ],
+          [ "PortField", "classAntares_1_1Study_1_1SystemModel_1_1PortField.html", null ],
+          [ "PortFieldDefinition", "classAntares_1_1Study_1_1SystemModel_1_1PortFieldDefinition.html", null ],
+          [ "PortType", "classAntares_1_1Study_1_1SystemModel_1_1PortType.html", null ],
+          [ "System", "classAntares_1_1Study_1_1SystemModel_1_1System.html", null ],
+          [ "SystemBuilder", "classAntares_1_1Study_1_1SystemModel_1_1SystemBuilder.html", "classAntares_1_1Study_1_1SystemModel_1_1SystemBuilder" ],
+          [ "SystemData", "structAntares_1_1Study_1_1SystemModel_1_1SystemData.html", null ],
+          [ "Variable", "classAntares_1_1Study_1_1SystemModel_1_1Variable.html", null ]
+        ] ]
       ] ],
       [ "Toolbox", null, [
         [ "Components", null, [
@@ -1301,6 +1317,7 @@ var annotated_dup =
     [ "CellColumnData", "classCellColumnData.html", "classCellColumnData" ],
     [ "commonFixture", "structcommonFixture.html", null ],
     [ "ComparisonFixture", "structComparisonFixture.html", null ],
+    [ "ComponentBuilderCreationFixture", "structComponentBuilderCreationFixture.html", null ],
     [ "computeTimeStepLevel", "classcomputeTimeStepLevel.html", null ],
     [ "ConsistenceNumberOfDispatchableUnits", "classConsistenceNumberOfDispatchableUnits.html", "classConsistenceNumberOfDispatchableUnits" ],
     [ "ConsistenceNumberOfDispatchableUnitsGroup", "classConsistenceNumberOfDispatchableUnitsGroup.html", "classConsistenceNumberOfDispatchableUnitsGroup" ],
@@ -1337,6 +1354,7 @@ var annotated_dup =
     [ "ExchangeBalanceData", "structExchangeBalanceData.html", null ],
     [ "ExchangeBalanceGroup", "classExchangeBalanceGroup.html", null ],
     [ "ExprBaseVisitor", "classExprBaseVisitor.html", "classExprBaseVisitor" ],
+    [ "ExpressionToNodeConvertorEmptyModel", "classExpressionToNodeConvertorEmptyModel.html", null ],
     [ "ExprLexer", "classExprLexer.html", null ],
     [ "ExprParser", "classExprParser.html", "classExprParser" ],
     [ "ExprVisitor", "classExprVisitor.html", "classExprVisitor" ],
@@ -1460,11 +1478,17 @@ var annotated_dup =
     [ "SearchToken", "classSearchToken.html", "classSearchToken" ],
     [ "Separator", "classSeparator.html", "classSeparator" ],
     [ "Settings", "classSettings.html", "classSettings" ],
+    [ "ShortTermStorageCostVariation", "classShortTermStorageCostVariation.html", null ],
+    [ "ShortTermStorageCostVariationInjectionBackward", "classShortTermStorageCostVariationInjectionBackward.html", null ],
+    [ "ShortTermStorageCostVariationInjectionForward", "classShortTermStorageCostVariationInjectionForward.html", null ],
+    [ "ShortTermStorageCostVariationWithdrawalBackward", "classShortTermStorageCostVariationWithdrawalBackward.html", null ],
+    [ "ShortTermStorageCostVariationWithdrawalForward", "classShortTermStorageCostVariationWithdrawalForward.html", null ],
+    [ "ShortTermStorageData", "structShortTermStorageData.html", null ],
     [ "ShortTermStorageLevel", "classShortTermStorageLevel.html", null ],
-    [ "ShortTermStorageLevelData", "structShortTermStorageLevelData.html", null ],
     [ "SimplexResult", "structSimplexResult.html", null ],
     [ "SimulationHandler", "classSimulationHandler.html", null ],
     [ "SOLDE_MOYEN_DES_ECHANGES", "structSOLDE__MOYEN__DES__ECHANGES.html", null ],
+    [ "SparseVector", "classSparseVector.html", null ],
     [ "StartUpCostsData", "structStartUpCostsData.html", null ],
     [ "StringIsNotWellFormated", "classStringIsNotWellFormated.html", null ],
     [ "StubOptPeriodStringGenerator", "classStubOptPeriodStringGenerator.html", null ],
@@ -1476,6 +1500,7 @@ var annotated_dup =
     [ "StudyWithBConLink", "structStudyWithBConLink.html", null ],
     [ "SubstitutionFixture", "classSubstitutionFixture.html", null ],
     [ "SumSubstitutionFixture", "classSumSubstitutionFixture.html", null ],
+    [ "SystemBuilderCreationFixture", "structSystemBuilderCreationFixture.html", null ],
     [ "SystemMemoryLogger", "classSystemMemoryLogger.html", null ],
     [ "TargetVectorUpdater", "classTargetVectorUpdater.html", null ],
     [ "TestContext", "structTestContext.html", null ],

@@ -5,5 +5,6 @@ var dir_1b63cdd565ac8086a558e14ec3a92f8c =
     [ "visitors", "dir_fc7284888212a3ca3333dab20ff7be8b.html", "dir_fc7284888212a3ca3333dab20ff7be8b" ],
     [ "hashable.h", "hashable_8h_source.html", null ],
     [ "IName.h", "IName_8h_source.html", null ],
+    [ "NodeRegistry.h", "NodeRegistry_8h_source.html", null ],
     [ "Registry.hxx", "Registry_8hxx_source.html", null ]
 ];

@@ -8,9 +8,11 @@ var searchData=
   ['unfeasiblepbanalyzer_5',['UnfeasiblePbAnalyzer',['../classAntares_1_1Optimization_1_1UnfeasiblePbAnalyzer.html',1,'Antares::Optimization']]],
   ['unfeasibleproblemerror_6',['UnfeasibleProblemError',['../classAntares_1_1Data_1_1UnfeasibleProblemError.html',1,'Antares::Data']]],
   ['unique_7',['Unique',['../structAntares_1_1Window_1_1Inspector_1_1Unique.html',1,'Antares::Window::Inspector']]],
-  ['unloaddata_8',['UnloadData',['../classAntares_1_1Action_1_1AntaresStudy_1_1Link_1_1UnloadData.html',1,'Antares::Action::AntaresStudy::Link']]],
-  ['unsupliedenergy_9',['UnsupliedEnergy',['../classAntares_1_1Solver_1_1Variable_1_1Economy_1_1UnsupliedEnergy.html',1,'Antares::Solver::Variable::Economy']]],
-  ['unsupliedenergycsr_10',['UnsupliedEnergyCSR',['../classAntares_1_1Solver_1_1Variable_1_1Economy_1_1UnsupliedEnergyCSR.html',1,'Antares::Solver::Variable::Economy']]],
-  ['updater_11',['Updater',['../classAntares_1_1Statistics_1_1Updater.html',1,'Antares::Statistics']]],
-  ['userdata_12',['UserData',['../classUserData.html',1,'']]]
+  ['unknowntypeexception_8',['UnknownTypeException',['../classAntares_1_1Solver_1_1ModelConverter_1_1UnknownTypeException.html',1,'Antares::Solver::ModelConverter']]],
+  ['unloaddata_9',['UnloadData',['../classAntares_1_1Action_1_1AntaresStudy_1_1Link_1_1UnloadData.html',1,'Antares::Action::AntaresStudy::Link']]],
+  ['unsignedatomcontext_10',['UnsignedAtomContext',['../classExprParser_1_1UnsignedAtomContext.html',1,'ExprParser']]],
+  ['unsupliedenergy_11',['UnsupliedEnergy',['../classAntares_1_1Solver_1_1Variable_1_1Economy_1_1UnsupliedEnergy.html',1,'Antares::Solver::Variable::Economy']]],
+  ['unsupliedenergycsr_12',['UnsupliedEnergyCSR',['../classAntares_1_1Solver_1_1Variable_1_1Economy_1_1UnsupliedEnergyCSR.html',1,'Antares::Solver::Variable::Economy']]],
+  ['updater_13',['Updater',['../classAntares_1_1Statistics_1_1Updater.html',1,'Antares::Statistics']]],
+  ['userdata_14',['UserData',['../classUserData.html',1,'']]]
 ];
