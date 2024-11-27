@@ -50,7 +50,6 @@ jobs:
       - name: Build the image and Antares
         run: |
             docker build \
-            --target build \
             -t antares:centos7 \
             --build-arg="ORTOOLS_TAG=${{ env.ORTOOLS_TAG }}" \
             --build-arg="BRANCH=${{ env.REF }}" \
