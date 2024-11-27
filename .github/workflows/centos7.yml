@@ -60,18 +60,18 @@ jobs:
             rpm -i gh_2.52.0_linux_amd64.rpm
             gh --version
 
-    - name: Publish assets
-      if: ${{ env.IS_RELEASE == 'true' }}
-      env:
-        GITHUB_TOKEN: ${{ github.token }}
-        tag: ${{ github.event.inputs.release_tag }}
-      run: |
-        gh release upload "$tag" archive/*.tar.gz _build/*.rpm
+      - name: Publish assets
+        if: ${{ env.IS_RELEASE == 'true' }}
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          tag: ${{ github.event.inputs.release_tag }}
+        run: |
+          gh release upload "$tag" archive/*.tar.gz _build/*.rpm
 
-    - name: Cache vcpkg binary dir
-      if: always()
-      id: save-cache-vcpkg-binary
-      uses: actions/cache/save@v3
-      with:
-        path: ${{ env.VCPKG_CACHE_DIR }}
-        key: vcpkg-cache-centos7-${{ hashFiles('src/vcpkg.json', '.git/modules/vcpkg/HEAD') }}
+      - name: Cache vcpkg binary dir
+        if: always()
+        id: save-cache-vcpkg-binary
+        uses: actions/cache/save@v3
+        with:
+          path: ${{ env.VCPKG_CACHE_DIR }}
+          key: vcpkg-cache-centos7-${{ hashFiles('src/vcpkg.json', '.git/modules/vcpkg/HEAD') }}
