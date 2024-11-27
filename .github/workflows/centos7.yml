@@ -30,8 +30,6 @@ jobs:
 
   build:
     name: Build
-    env:
-      ORTOOLSDIR: ${{ github.workspace }}/or-tools
 
     runs-on: ubuntu-latest
 #    container: 'antaresrte/rte-antares:centos7-simulator-no-deps'
