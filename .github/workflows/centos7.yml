@@ -40,8 +40,8 @@ jobs:
           git clone --no-checkout https://github.com/BAZ-C/Antares_Simulator.git 
           cd Antares_Simulator
           git sparse-checkout init --cone
-          git sparse-checkout set <path_to_folder>
-          git checkout ${{ env.REF }} -- ortools_tag
+          git sparse-checkout set ortools_tag
+          git checkout ${{ env.REF }}
           echo "ORTOOLS_TAG=$(cat ortools_tag)" >> $GITHUB_ENV
           
 
