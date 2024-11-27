@@ -35,7 +35,7 @@ jobs:
 
     steps:
 
-      - name Get ortools Tags
+      - name: Get ortools Tags
         run: |
           git clone --no-checkout https://github.com/BAZ-C/Antares_Simulator.git 
           cd Antares_Simulator
