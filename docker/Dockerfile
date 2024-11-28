@@ -50,7 +50,7 @@ RUN cd /workspace && \
 ENV ORTOOLS_TAG=$ORTOOLS_TAG
 
 
-RUN URL_ORTOOLS=https://github.com/rte-france/or-tools-rte/releases/download/${ORTOOLS_TAG}/ortools_cxx_centos7_static_sirius.zip && \
+RUN URL_ORTOOLS=https://github.com/rte-france/or-tools-rte/releases/download/$ORTOOLS_TAG/ortools_cxx_centos7_static_sirius.zip && \
     mkdir -p ortools && cd ortools && \
             wget -q -O ortools.zip $URL_ORTOOLS && \
             unzip -q ortools.zip && \
