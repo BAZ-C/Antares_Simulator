@@ -44,13 +44,14 @@ RUN cd /workspace && \
     git clone https://github.com/BAZ-C/Antares_Simulator.git --branch $BRANCH && \
     cd Antares_Simulator && \
     git submodule update --init vcpkg && ./vcpkg/bootstrap-vcpkg.sh -disableMetrics && \
-    export VCPKG_ROOT=/workspace/Antares_Simulator/vcpkg && \
-    ORTOOLS_TAG=$(cat  ortools_tag) && echo "ORTOOLS_TAG=$ORTOOLS_TAG" >> /etc/environment
+    export VCPKG_ROOT=/workspace/Antares_Simulator/vcpkg
 
 
 
-RUN export ORTOOLS_TAG=$(grep ORTOOLS_TAG /etc/environment | cut -d '=' -f 2) && \
-    URL_ORTOOLS=https://github.com/rte-france/or-tools-rte/releases/download/${ORTOOLS_TAG}/ortools_cxx_centos7_static_sirius.zip && \
+
+RUN ORTOOLS_TAG=$(cat  /workspace/Antares_Simulator/ortools_tag) && \
+    echo "ORTOOLS_TAG=$ORTOOLS_TAG" && \
+    URL_ORTOOLS=https://github.com/rte-france/or-tools-rte/releases/download/$ORTOOLS_TAG/ortools_cxx_centos7_static_sirius.zip && \
     mkdir -p ortools && cd ortools && \
             wget -q -O ortools.zip $URL_ORTOOLS && \
             unzip -q ortools.zip && \
