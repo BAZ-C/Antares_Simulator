@@ -55,7 +55,7 @@ RUN ORTOOLS_TAG=$(cat  /workspace/Antares_Simulator/ortools_tag) && \
     mkdir -p ortools && cd ortools && \
             wget -q -O ortools.zip $URL_ORTOOLS && \
             unzip -q ortools.zip && \
-            rm ortools.zip \
+            rm ortools.zip
 
 WORKDIR /workspace/Antares_Simulator
 
