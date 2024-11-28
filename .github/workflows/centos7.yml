@@ -47,10 +47,19 @@ jobs:
           echo "DOCKERFILE=$(pwd)/docker/Dockerfile" >> $GITHUB_ENV
           echo "DOCKERDIR=$(pwd)/docker" >> $GITHUB_ENV
           
-        
+      - uses: actions/checkout@master
+        with:
+          fetch-depth: 0
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v45
+        with:
+          files: |
+            ${{ env.DOCKERDIR }}/AntaresDeps        
 
       - name: Docker file push
         id: docker_push
+        if: steps.changed-files.outputs.any_changed == 'true'
         uses: elgohr/Publish-Docker-Github-Action@main
         with:
           name: 13words/antaressystemdeps
