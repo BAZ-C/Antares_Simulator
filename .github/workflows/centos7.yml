@@ -35,17 +35,7 @@ jobs:
 
     steps:
 
-      - name: Docker file push
-        id: docker_push
-        uses: elgohr/Publish-Docker-Github-Action@main
-        with:
-          name: 13words/antaressystemdeps
-          username: ${{ secrets.DOCKER_USERNAME }}
-          password: ${{ secrets.DOCKER_PASSWORD }}
-          workdir: docker
-          dockerfile: AntaresDeps
-          cache: false
-          tags: latest
+
 
       - name: Get DockerFile
         run: |
@@ -55,8 +45,20 @@ jobs:
           git sparse-checkout set docker/Dockerfile
           git checkout ${{ env.REF }}
           echo "DOCKERFILE=$(pwd)/docker/Dockerfile" >> $GITHUB_ENV
+          echo "DOCKERDIR=$(pwd)/docker" >> $GITHUB_ENV
           
           
+      - name: Docker file push
+        id: docker_push
+        uses: elgohr/Publish-Docker-Github-Action@main
+        with:
+          name: 13words/antaressystemdeps
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+          workdir: {{ env.DOCKERDIR }}
+          dockerfile: {{ env.DOCKERDIR }}/AntaresDeps
+          cache: false
+          tags: latest
 
       - name: Build the image and Antares
         run: |
