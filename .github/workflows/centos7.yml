@@ -47,7 +47,8 @@ jobs:
           echo "DOCKERFILE=$(pwd)/docker/Dockerfile" >> $GITHUB_ENV
           echo "DOCKERDIR=$(pwd)/docker" >> $GITHUB_ENV
           
-          
+        
+
       - name: Docker file push
         id: docker_push
         uses: elgohr/Publish-Docker-Github-Action@main
