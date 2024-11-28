@@ -58,7 +58,7 @@ jobs:
         uses: tj-actions/changed-files@v45
         with:
           files: |
-            ${{ env.DOCKERDIR }}/AntaresDeps        
+            docker/AntaresDeps        
 
       - name: Docker file push
         id: docker_push
