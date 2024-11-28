@@ -37,15 +37,21 @@ jobs:
 
 
 
-      - name: Get DockerFile
+      #sparse checkout dockerfiles
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          sparse-checkout: |
+             docker/Dockerfile
+             docker/AntaresDeps
+          ref : ${{ env.REF }}
+
+      - name: set env variables -- DockerFiles
         run: |
-          git clone --no-checkout https://github.com/BAZ-C/Antares_Simulator.git 
-          cd Antares_Simulator
-          git sparse-checkout init --cone
-          git sparse-checkout set docker/Dockerfile docker/AntaresDeps
-          git checkout ${{ env.REF }}
           echo "DOCKERFILE=$(pwd)/docker/Dockerfile" >> $GITHUB_ENV
           echo "DOCKERDIR=$(pwd)/docker" >> $GITHUB_ENV
+
+
 
       - name: Get changed files
         id: changed-files
@@ -56,6 +62,7 @@ jobs:
 
       - name: Docker file push
         id: docker_push
+
         if: steps.changed-files.outputs.any_changed == 'true'
         uses: elgohr/Publish-Docker-Github-Action@main
         with:
@@ -66,8 +73,6 @@ jobs:
           dockerfile: ${{ env.DOCKERDIR }}/AntaresDeps
           cache: false
           tags: latest
-
-
 
       - name: Build the image and Antares
         run: |
