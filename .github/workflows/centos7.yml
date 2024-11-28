@@ -46,10 +46,7 @@ jobs:
           git checkout ${{ env.REF }}
           echo "DOCKERFILE=$(pwd)/docker/Dockerfile" >> $GITHUB_ENV
           echo "DOCKERDIR=$(pwd)/docker" >> $GITHUB_ENV
-          
-      - uses: actions/checkout@master
-        with:
-          fetch-depth: 0
+
       - name: Get changed files
         id: changed-files
         uses: tj-actions/changed-files@v45
@@ -69,6 +66,8 @@ jobs:
           dockerfile: ${{ env.DOCKERDIR }}/AntaresDeps
           cache: false
           tags: latest
+
+
 
       - name: Build the image and Antares
         run: |
