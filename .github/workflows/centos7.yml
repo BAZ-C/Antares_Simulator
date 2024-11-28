@@ -42,7 +42,7 @@ jobs:
           git clone --no-checkout https://github.com/BAZ-C/Antares_Simulator.git 
           cd Antares_Simulator
           git sparse-checkout init --cone
-          git sparse-checkout set docker/Dockerfile
+          git sparse-checkout set docker/Dockerfile docker/AntaresDeps
           git checkout ${{ env.REF }}
           echo "DOCKERFILE=$(pwd)/docker/Dockerfile" >> $GITHUB_ENV
           echo "DOCKERDIR=$(pwd)/docker" >> $GITHUB_ENV
