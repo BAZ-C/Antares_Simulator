@@ -45,12 +45,12 @@ RUN cd /workspace && \
     cd Antares_Simulator && \
     git submodule update --init vcpkg && ./vcpkg/bootstrap-vcpkg.sh -disableMetrics && \
     export VCPKG_ROOT=/workspace/Antares_Simulator/vcpkg && \
-    export ORTOOLS_TAG=$(cat  ortools_tag)
-
-ENV ORTOOLS_TAG=$ORTOOLS_TAG
+    ORTOOLS_TAG=$(cat  ortools_tag) && echo "ORTOOLS_TAG=$ORTOOLS_TAG" >> /etc/environment
 
 
-RUN URL_ORTOOLS=https://github.com/rte-france/or-tools-rte/releases/download/$ORTOOLS_TAG/ortools_cxx_centos7_static_sirius.zip && \
+
+RUN export ORTOOLS_TAG=$(grep ORTOOLS_TAG /etc/environment | cut -d '=' -f 2) && \
+    URL_ORTOOLS=https://github.com/rte-france/or-tools-rte/releases/download/${ORTOOLS_TAG}/ortools_cxx_centos7_static_sirius.zip && \
     mkdir -p ortools && cd ortools && \
             wget -q -O ortools.zip $URL_ORTOOLS && \
             unzip -q ortools.zip && \
