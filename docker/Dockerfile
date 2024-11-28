@@ -37,20 +37,24 @@ SHELL ["/bin/bash", "--login", "-c"]
 # Install CMake
 RUN pip3 install cmake==3.28.4
 
-ARG ORTOOLS_TAG=v9.11-rte1.1
 
-RUN URL_ORTOOLS=https://github.com/rte-france/or-tools-rte/releases/download/${ORTOOLS_TAG}/ortools_cxx_centos7_static_sirius.zip && \
-    mkdir -p ortools && cd ortools && \
-            wget -q -O ortools.zip $URL_ORTOOLS && \
-            unzip -q ortools.zip && \
-            rm ortools.zip
 
 ARG BRANCH=develop
 RUN cd /workspace && \
     git clone https://github.com/BAZ-C/Antares_Simulator.git --branch $BRANCH && \
     cd Antares_Simulator && \
     git submodule update --init vcpkg && ./vcpkg/bootstrap-vcpkg.sh -disableMetrics && \
-    export VCPKG_ROOT=/workspace/Antares_Simulator/vcpkg
+    export VCPKG_ROOT=/workspace/Antares_Simulator/vcpkg && \
+    export ORTOOLS_TAG=$(cat  ortools_tag)
+
+ENV ORTOOLS_TAG=$ORTOOLS_TAG
+
+
+RUN URL_ORTOOLS=https://github.com/rte-france/or-tools-rte/releases/download/${ORTOOLS_TAG}/ortools_cxx_centos7_static_sirius.zip && \
+    mkdir -p ortools && cd ortools && \
+            wget -q -O ortools.zip $URL_ORTOOLS && \
+            unzip -q ortools.zip && \
+            rm ortools.zip \
 
 WORKDIR /workspace/Antares_Simulator
 
