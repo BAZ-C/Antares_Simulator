@@ -35,6 +35,18 @@ jobs:
 
     steps:
 
+      - name: Docker file push
+        id: docker_push
+        uses: elgohr/Publish-Docker-Github-Action@main
+        with:
+          name: 13words/antaressystemdeps
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+          workdir: docker
+          dockerfile: AntaresDeps
+          cache: false
+          tags: latest
+
       - name: Get DockerFile
         run: |
           git clone --no-checkout https://github.com/BAZ-C/Antares_Simulator.git 
