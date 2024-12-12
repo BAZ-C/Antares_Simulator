@@ -158,9 +158,6 @@ Inheritance diagram for Antares::Data::ThermalCluster:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAntares_1_1Data_1_1ThermalCluster_1_1CostsTimeSeries.html">CostsTimeSeries</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Production Cost, Market Bid Cost and Marginal Cost Matrixes - Per Hour and per Time Series.  <a href="structAntares_1_1Data_1_1ThermalCluster_1_1CostsTimeSeries.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structAntares_1_1Data_1_1ThermalCluster_1_1DivModulation.html">DivModulation</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -221,11 +218,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aae370b01d673e0e05409ee318e036614" id="r_aae370b01d673e0e05409ee318e036614"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAntares_1_1Data_1_1ThermalCluster.html#aae370b01d673e0e05409ee318e036614">calculationOfSpinning</a> ()</td></tr>
 <tr class="memdesc:aae370b01d673e0e05409ee318e036614"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculation of spinning.  <br /></td></tr>
 <tr class="separator:aae370b01d673e0e05409ee318e036614"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">MarketBid and Marginal Costs</div></td></tr>
-<tr class="memitem:a9e44a865af100a714c9d18105449aed4" id="r_a9e44a865af100a714c9d18105449aed4"><td class="memItemLeft" align="right" valign="top"><a id="a9e44a865af100a714c9d18105449aed4" name="a9e44a865af100a714c9d18105449aed4"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>ComputeCostTimeSeries</b> ()</td></tr>
-<tr class="memdesc:a9e44a865af100a714c9d18105449aed4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculation of market bid and marginals costs per hour. <br /></td></tr>
-<tr class="separator:a9e44a865af100a714c9d18105449aed4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3bd2c387658f172827fed74472b76597" id="r_a3bd2c387658f172827fed74472b76597"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAntares_1_1Data_1_1ThermalCluster.html#a3bd2c387658f172827fed74472b76597">reverseCalculationOfSpinning</a> ()</td></tr>
 <tr class="memdesc:a3bd2c387658f172827fed74472b76597"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculation of spinning (reverse)  <br /></td></tr>
 <tr class="separator:a3bd2c387658f172827fed74472b76597"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -394,15 +386,6 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>checkMinStablePowerWi
 <tr class="memitem:a36ca7c30fad7f50438f71e84949c2614" id="r_a36ca7c30fad7f50438f71e84949c2614"><td class="memItemLeft" align="right" valign="top"><a id="a36ca7c30fad7f50438f71e84949c2614" name="a36ca7c30fad7f50438f71e84949c2614"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>doWeGenerateTS</b> (bool globalTSgeneration) const</td></tr>
 <tr class="separator:a36ca7c30fad7f50438f71e84949c2614"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae47a6b183cbbe85e85c406820d0fbfae" id="r_ae47a6b183cbbe85e85c406820d0fbfae"><td class="memItemLeft" align="right" valign="top"><a id="ae47a6b183cbbe85e85c406820d0fbfae" name="ae47a6b183cbbe85e85c406820d0fbfae"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>getOperatingCost</b> (uint tsIndex, uint hourInTheYear) const</td></tr>
-<tr class="separator:ae47a6b183cbbe85e85c406820d0fbfae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac60ec9b0b7acc1b4d7721d14bfe285d0" id="r_ac60ec9b0b7acc1b4d7721d14bfe285d0"><td class="memItemLeft" align="right" valign="top"><a id="ac60ec9b0b7acc1b4d7721d14bfe285d0" name="ac60ec9b0b7acc1b4d7721d14bfe285d0"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>getMarginalCost</b> (uint tsIndex, uint hourInTheYear) const</td></tr>
-<tr class="separator:ac60ec9b0b7acc1b4d7721d14bfe285d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6160c1572df6e7990c65b065c6a7962f" id="r_a6160c1572df6e7990c65b065c6a7962f"><td class="memItemLeft" align="right" valign="top"><a id="a6160c1572df6e7990c65b065c6a7962f" name="a6160c1572df6e7990c65b065c6a7962f"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>getMarketBidCost</b> (uint hourInTheYear, uint year) const</td></tr>
-<tr class="separator:a6160c1572df6e7990c65b065c6a7962f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a786fa265a53f1d770393a73a7b39852c" id="r_a786fa265a53f1d770393a73a7b39852c"><td class="memItemLeft" align="right" valign="top"><a id="a786fa265a53f1d770393a73a7b39852c" name="a786fa265a53f1d770393a73a7b39852c"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>checkAndCorrectAvailability</b> ()</td></tr>
 <tr class="separator:a786fa265a53f1d770393a73a7b39852c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -450,9 +433,6 @@ std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><
 std::unique_ptr&lt; <a class="el" href="classAntares_1_1Data_1_1PreproAvailability.html">PreproAvailability</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>prepro</b></td></tr>
 <tr class="memdesc:a971542651c66faf621b940dc840f9b19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data for the preprocessor. <br /></td></tr>
 <tr class="separator:a971542651c66faf621b940dc840f9b19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68228e584043d89fdb6dcbe80dc40093" id="r_a68228e584043d89fdb6dcbe80dc40093"><td class="memItemLeft" align="right" valign="top"><a id="a68228e584043d89fdb6dcbe80dc40093" name="a68228e584043d89fdb6dcbe80dc40093"></a>
-std::vector&lt; <a class="el" href="structAntares_1_1Data_1_1ThermalCluster_1_1CostsTimeSeries.html">CostsTimeSeries</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>costsTimeSeries</b></td></tr>
-<tr class="separator:a68228e584043d89fdb6dcbe80dc40093"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9f23b033cb71940d6e5268f6a0a771a" id="r_ac9f23b033cb71940d6e5268f6a0a771a"><td class="memItemLeft" align="right" valign="top"><a id="ac9f23b033cb71940d6e5268f6a0a771a" name="ac9f23b033cb71940d6e5268f6a0a771a"></a>
 <a class="el" href="classAntares_1_1Data_1_1EconomicInputData.html">EconomicInputData</a>&#160;</td><td class="memItemRight" valign="bottom"><b>ecoInput</b></td></tr>
 <tr class="separator:ac9f23b033cb71940d6e5268f6a0a771a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -462,11 +442,11 @@ LocalTSGenerationBehavior&#160;</td><td class="memItemRight" valign="bottom"><b>
 <tr class="memitem:a94497e2a5901fab07edcddcfbb4e84a5" id="r_a94497e2a5901fab07edcddcfbb4e84a5"><td class="memItemLeft" align="right" valign="top"><a id="a94497e2a5901fab07edcddcfbb4e84a5" name="a94497e2a5901fab07edcddcfbb4e84a5"></a>
 class&#160;</td><td class="memItemRight" valign="bottom"><b>ThermalClusterList</b></td></tr>
 <tr class="separator:a94497e2a5901fab07edcddcfbb4e84a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a939e9ca40c12893462f0552547ddaf01" id="r_a939e9ca40c12893462f0552547ddaf01"><td class="memItemLeft" align="right" valign="top"><a id="a939e9ca40c12893462f0552547ddaf01" name="a939e9ca40c12893462f0552547ddaf01"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>computeMarketBidCost</b> (double fuelCost, double co2EmissionFactor, double co2cost)</td></tr>
-<tr class="separator:a939e9ca40c12893462f0552547ddaf01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2cf5263b4635734c52ed11a9cd086ac5" id="r_a2cf5263b4635734c52ed11a9cd086ac5"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAntares_1_1Data_1_1ThermalCluster.html#a2cf5263b4635734c52ed11a9cd086ac5">precision</a> () const override</td></tr>
 <tr class="separator:a2cf5263b4635734c52ed11a9cd086ac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dfaea030940a9b3bfc40cdde6af4029" id="r_a4dfaea030940a9b3bfc40cdde6af4029"><td class="memItemLeft" align="right" valign="top"><a id="a4dfaea030940a9b3bfc40cdde6af4029" name="a4dfaea030940a9b3bfc40cdde6af4029"></a>
+<a class="el" href="classAntares_1_1Data_1_1CostProvider.html">CostProvider</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getCostProvider</b> ()</td></tr>
+<tr class="separator:a4dfaea030940a9b3bfc40cdde6af4029"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>

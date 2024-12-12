@@ -16,7 +16,7 @@
 <meta name="twitter:title" content="Antares Simulator" />
 <meta name="twitter:description" content="Power System Simulator." />
 <!-- END twitter metadata -->
-<title>Antares Simulator: Antares::Data::ThermalCluster::CostsTimeSeries Struct Reference</title>
+<title>Antares Simulator: Antares::Study::SystemModel::ComponentData Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
@@ -105,7 +105,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('structAntares_1_1Data_1_1ThermalCluster_1_1CostsTimeSeries.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('classAntares_1_1Study_1_1SystemModel_1_1ComponentData.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -132,40 +132,47 @@ $(document).ready(function(){initNavTree('structAntares_1_1Data_1_1ThermalCluste
 
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="structAntares_1_1Data_1_1ThermalCluster_1_1CostsTimeSeries-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Antares::Data::ThermalCluster::CostsTimeSeries Struct Reference</div></div>
+<a href="classAntares_1_1Study_1_1SystemModel_1_1ComponentData-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">Antares::Study::SystemModel::ComponentData Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Production Cost, Market Bid Cost and Marginal Cost Matrixes - Per Hour and per Time Series.  
- <a href="structAntares_1_1Data_1_1ThermalCluster_1_1CostsTimeSeries.html#details">More...</a></p>
-
-<p><code>#include &lt;<a class="el" href="libs_2antares_2study_2include_2antares_2study_2parts_2thermal_2cluster_8h_source.html">cluster.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="study_2system-model_2include_2antares_2study_2system-model_2component_8h_source.html">component.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a621946b4a682c23a60a6fead36f0a47b" id="r_a621946b4a682c23a60a6fead36f0a47b"><td class="memItemLeft" align="right" valign="top"><a id="a621946b4a682c23a60a6fead36f0a47b" name="a621946b4a682c23a60a6fead36f0a47b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>reset</b> ()</td></tr>
+<tr class="separator:a621946b4a682c23a60a6fead36f0a47b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a4cf4723948d0a2028f3e915e2fe98b35" id="r_a4cf4723948d0a2028f3e915e2fe98b35"><td class="memItemLeft" align="right" valign="top"><a id="a4cf4723948d0a2028f3e915e2fe98b35" name="a4cf4723948d0a2028f3e915e2fe98b35"></a>
-std::array&lt; double, HOURS_PER_YEAR &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>productionCostTs</b></td></tr>
-<tr class="separator:a4cf4723948d0a2028f3e915e2fe98b35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac926d72b9237f31556da9c6846d8cd5a" id="r_ac926d72b9237f31556da9c6846d8cd5a"><td class="memItemLeft" align="right" valign="top"><a id="ac926d72b9237f31556da9c6846d8cd5a" name="ac926d72b9237f31556da9c6846d8cd5a"></a>
-std::array&lt; double, HOURS_PER_YEAR &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>marketBidCostTS</b></td></tr>
-<tr class="separator:ac926d72b9237f31556da9c6846d8cd5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d8b31cfb5a224db63c0873db54b574f" id="r_a3d8b31cfb5a224db63c0873db54b574f"><td class="memItemLeft" align="right" valign="top"><a id="a3d8b31cfb5a224db63c0873db54b574f" name="a3d8b31cfb5a224db63c0873db54b574f"></a>
-std::array&lt; double, HOURS_PER_YEAR &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>marginalCostTS</b></td></tr>
-<tr class="separator:a3d8b31cfb5a224db63c0873db54b574f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee7067a8cf85d3dbdb422d89ee6ae796" id="r_aee7067a8cf85d3dbdb422d89ee6ae796"><td class="memItemLeft" align="right" valign="top"><a id="aee7067a8cf85d3dbdb422d89ee6ae796" name="aee7067a8cf85d3dbdb422d89ee6ae796"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>id</b></td></tr>
+<tr class="separator:aee7067a8cf85d3dbdb422d89ee6ae796"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac55971b8442c941e4a17a54ebd188603" id="r_ac55971b8442c941e4a17a54ebd188603"><td class="memItemLeft" align="right" valign="top"><a id="ac55971b8442c941e4a17a54ebd188603" name="ac55971b8442c941e4a17a54ebd188603"></a>
+const <a class="el" href="classAntares_1_1Study_1_1SystemModel_1_1Model.html">Model</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>model</b> = nullptr</td></tr>
+<tr class="separator:ac55971b8442c941e4a17a54ebd188603"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9baa7b19cf180f2fd2cc629d83c59ae" id="r_aa9baa7b19cf180f2fd2cc629d83c59ae"><td class="memItemLeft" align="right" valign="top"><a id="aa9baa7b19cf180f2fd2cc629d83c59ae" name="aa9baa7b19cf180f2fd2cc629d83c59ae"></a>
+std::map&lt; std::string, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>parameter_values</b></td></tr>
+<tr class="separator:aa9baa7b19cf180f2fd2cc629d83c59ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a922480a6a0a573699d4d26f7e1be7fbc" id="r_a922480a6a0a573699d4d26f7e1be7fbc"><td class="memItemLeft" align="right" valign="top"><a id="a922480a6a0a573699d4d26f7e1be7fbc" name="a922480a6a0a573699d4d26f7e1be7fbc"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>scenario_group_id</b></td></tr>
+<tr class="separator:a922480a6a0a573699d4d26f7e1be7fbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Production Cost, Market Bid Cost and Marginal Cost Matrixes - Per Hour and per Time Series. </p>
-</div><hr/>The documentation for this struct was generated from the following file:<ul>
-<li>src/libs/antares/study/include/antares/study/parts/thermal/<a class="el" href="libs_2antares_2study_2include_2antares_2study_2parts_2thermal_2cluster_8h_source.html">cluster.h</a></li>
+<div class="textblock"><p>Defines the attributes of the <a class="el" href="classAntares_1_1Study_1_1SystemModel_1_1Component.html">Component</a> class Made into a struct to avoid duplication in <a class="el" href="classAntares_1_1Study_1_1SystemModel_1_1ComponentBuilder.html">ComponentBuilder</a> </p>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
+<li>src/study/system-model/include/antares/study/system-model/<a class="el" href="study_2system-model_2include_2antares_2study_2system-model_2component_8h_source.html">component.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>Antares</b></li><li class="navelem"><b>Data</b></li><li class="navelem"><a class="el" href="classAntares_1_1Data_1_1ThermalCluster.html">ThermalCluster</a></li><li class="navelem"><a class="el" href="structAntares_1_1Data_1_1ThermalCluster_1_1CostsTimeSeries.html">CostsTimeSeries</a></li>
+    <li class="navelem"><b>Antares</b></li><li class="navelem"><b>Study</b></li><li class="navelem"><b>SystemModel</b></li><li class="navelem"><a class="el" href="classAntares_1_1Study_1_1SystemModel_1_1ComponentData.html">ComponentData</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>

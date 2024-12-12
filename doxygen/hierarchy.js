@@ -138,10 +138,11 @@ var hierarchy =
     [ "Antares::linkInfo::comparepWeightWithImpedance", "structAntares_1_1linkInfo_1_1comparepWeightWithImpedance.html", null ],
     [ "Antares::Graph::Edge< NodeT >::compareWeight", "structAntares_1_1Graph_1_1Edge_1_1compareWeight.html", null ],
     [ "ComparisonFixture", "structComparisonFixture.html", null ],
+    [ "Antares::Data::Parameters::Compatibility", "structAntares_1_1Data_1_1Parameters_1_1Compatibility.html", null ],
     [ "Antares::Study::SystemModel::Component", "classAntares_1_1Study_1_1SystemModel_1_1Component.html", null ],
     [ "Antares::Study::SystemModel::ComponentBuilder", "classAntares_1_1Study_1_1SystemModel_1_1ComponentBuilder.html", null ],
     [ "ComponentBuilderCreationFixture", "structComponentBuilderCreationFixture.html", null ],
-    [ "Antares::Study::SystemModel::ComponentData", "structAntares_1_1Study_1_1SystemModel_1_1ComponentData.html", null ],
+    [ "Antares::Study::SystemModel::ComponentData", "classAntares_1_1Study_1_1SystemModel_1_1ComponentData.html", null ],
     [ "Antares::Component::Datagrid::ComponentRefresh", "classAntares_1_1Component_1_1Datagrid_1_1ComponentRefresh.html", [
       [ "Antares::Component::Datagrid::Component", "classAntares_1_1Component_1_1Datagrid_1_1Component.html", null ]
     ] ],
@@ -152,6 +153,7 @@ var hierarchy =
     [ "Antares::Study::SystemModel::Constraint", "classAntares_1_1Study_1_1SystemModel_1_1Constraint.html", null ],
     [ "ConstraintBuilder", "classConstraintBuilder.html", null ],
     [ "ConstraintBuilderData", "classConstraintBuilderData.html", null ],
+    [ "ConstraintData", "structConstraintData.html", null ],
     [ "ConstraintFactory", "classConstraintFactory.html", [
       [ "AreaBalance", "classAreaBalance.html", null ],
       [ "AreaHydroLevel", "classAreaHydroLevel.html", null ],
@@ -233,8 +235,11 @@ var hierarchy =
     [ "CORRESPONDANCES_DES_CONTRAINTES_HEBDOMADAIRES", "structCORRESPONDANCES__DES__CONTRAINTES__HEBDOMADAIRES.html", null ],
     [ "CORRESPONDANCES_DES_CONTRAINTES_JOURNALIERES", "structCORRESPONDANCES__DES__CONTRAINTES__JOURNALIERES.html", null ],
     [ "CORRESPONDANCES_DES_VARIABLES", "structCORRESPONDANCES__DES__VARIABLES.html", null ],
+    [ "Antares::Data::CostProvider", "classAntares_1_1Data_1_1CostProvider.html", [
+      [ "Antares::Data::ConstantCostProvider", "classAntares_1_1Data_1_1ConstantCostProvider.html", null ],
+      [ "Antares::Data::ScenarizedCostProvider", "classAntares_1_1Data_1_1ScenarizedCostProvider.html", null ]
+    ] ],
     [ "Antares::Solver::Simulation::costStatistics", "classAntares_1_1Solver_1_1Simulation_1_1costStatistics.html", null ],
-    [ "Antares::Data::ThermalCluster::CostsTimeSeries", "structAntares_1_1Data_1_1ThermalCluster_1_1CostsTimeSeries.html", null ],
     [ "COUTS_DE_TRANSPORT", "structCOUTS__DE__TRANSPORT.html", null ],
     [ "CsrAreaBalanceData", "structCsrAreaBalanceData.html", null ],
     [ "CsrBindingConstraintHourData", "structCsrBindingConstraintHourData.html", null ],
@@ -694,6 +699,12 @@ var hierarchy =
       [ "Antares::Solver::Simulation::ISimulation< Impl >", "classAntares_1_1Solver_1_1Simulation_1_1ISimulation.html", null ]
     ] ],
     [ "Antares::Solver::IName", "classAntares_1_1Solver_1_1IName.html", [
+      [ "Antares::Solver::Visitors::NodeVisitor< LinearConstraint >", "classAntares_1_1Solver_1_1Visitors_1_1NodeVisitor.html", [
+        [ "Antares::Optimization::ReadLinearConstraintVisitor", "classAntares_1_1Optimization_1_1ReadLinearConstraintVisitor.html", null ]
+      ] ],
+      [ "Antares::Solver::Visitors::NodeVisitor< LinearExpression >", "classAntares_1_1Solver_1_1Visitors_1_1NodeVisitor.html", [
+        [ "Antares::Optimization::ReadLinearExpressionVisitor", "classAntares_1_1Optimization_1_1ReadLinearExpressionVisitor.html", null ]
+      ] ],
       [ "Antares::Solver::Visitors::NodeVisitor< void, std::ostream & >", "classAntares_1_1Solver_1_1Visitors_1_1NodeVisitor.html", [
         [ "Antares::Solver::Visitors::AstDOTStyleVisitor", "classAntares_1_1Solver_1_1Visitors_1_1AstDOTStyleVisitor.html", null ]
       ] ],
@@ -833,9 +844,13 @@ var hierarchy =
     [ "Antares::Solver::ModelParser::Library", "structAntares_1_1Solver_1_1ModelParser_1_1Library.html", null ],
     [ "Antares::Study::SystemModel::Library", "classAntares_1_1Study_1_1SystemModel_1_1Library.html", null ],
     [ "Antares::Study::SystemModel::LibraryBuilder", "classAntares_1_1Study_1_1SystemModel_1_1LibraryBuilder.html", null ],
+    [ "Antares::Optimization::LinearConstraint", "structAntares_1_1Optimization_1_1LinearConstraint.html", null ],
+    [ "Antares::Optimization::LinearExpression", "classAntares_1_1Optimization_1_1LinearExpression.html", null ],
     [ "Antares::Solver::Modeler::Api::LinearProblemBuilder", "classAntares_1_1Solver_1_1Modeler_1_1Api_1_1LinearProblemBuilder.html", null ],
+    [ "LinearProblemBuildingFixture", "structLinearProblemBuildingFixture.html", null ],
     [ "Antares::Solver::Modeler::Api::LinearProblemData", "classAntares_1_1Solver_1_1Modeler_1_1Api_1_1LinearProblemData.html", null ],
     [ "Antares::Solver::Modeler::Api::LinearProblemFiller", "classAntares_1_1Solver_1_1Modeler_1_1Api_1_1LinearProblemFiller.html", [
+      [ "Antares::Optimization::ComponentFiller", "classAntares_1_1Optimization_1_1ComponentFiller.html", null ],
       [ "Antares::Optimization::LegacyFiller", "classAntares_1_1Optimization_1_1LegacyFiller.html", null ],
       [ "Antares::Solver::Modeler::Api::OneConstraintFiller", "classAntares_1_1Solver_1_1Modeler_1_1Api_1_1OneConstraintFiller.html", null ],
       [ "Antares::Solver::Modeler::Api::OneVarFiller", "classAntares_1_1Solver_1_1Modeler_1_1Api_1_1OneVarFiller.html", null ],
@@ -1603,6 +1618,7 @@ var hierarchy =
     [ "Antares::Solver::Variable::VariableAccessor< ResultsT, Category::singleColumn >", "structAntares_1_1Solver_1_1Variable_1_1VariableAccessor_3_01ResultsT_00_01Category_1_1singleColumn_01_4.html", null ],
     [ "Antares::Optimization::VariableBounds", "structAntares_1_1Optimization_1_1VariableBounds.html", null ],
     [ "Antares::Window::OutputViewer::Provider::VariableCollector", "classAntares_1_1Window_1_1OutputViewer_1_1Provider_1_1VariableCollector.html", null ],
+    [ "VariableData", "structVariableData.html", null ],
     [ "VariableManagement::VariableManager", "classVariableManagement_1_1VariableManager.html", null ],
     [ "Antares::Data::VariablePrintInfo", "classAntares_1_1Data_1_1VariablePrintInfo.html", null ],
     [ "Antares::Data::variablePrintInfoCollector", "classAntares_1_1Data_1_1variablePrintInfoCollector.html", null ],

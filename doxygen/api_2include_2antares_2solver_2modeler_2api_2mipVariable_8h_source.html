@@ -171,10 +171,12 @@ $(document).ready(function(){initNavTree('api_2include_2antares_2solver_2modeler
 <div class="foldopen" id="foldopen00030" data-start="{" data-end="};">
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="classAntares_1_1Solver_1_1Modeler_1_1Api_1_1IMipVariable.html">   30</a></span><span class="keyword">class </span><a class="code hl_class" href="classAntares_1_1Solver_1_1Modeler_1_1Api_1_1IMipVariable.html">IMipVariable</a>: <span class="keyword">public</span> <a class="code hl_class" href="classAntares_1_1Solver_1_1Modeler_1_1Api_1_1IHasBounds.html">IHasBounds</a>, <span class="keyword">public</span> <a class="code hl_class" href="classAntares_1_1Solver_1_1Modeler_1_1Api_1_1IHasName.html">IHasName</a></div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>{</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>};</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> isInteger() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>};</div>
 </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>} <span class="comment">// namespace Antares::Solver::Modeler::Api</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>} <span class="comment">// namespace Antares::Solver::Modeler::Api</span></div>
 <div class="ttc" id="aclassAntares_1_1Solver_1_1Modeler_1_1Api_1_1IHasBounds_html"><div class="ttname"><a href="classAntares_1_1Solver_1_1Modeler_1_1Api_1_1IHasBounds.html">Antares::Solver::Modeler::Api::IHasBounds</a></div><div class="ttdoc">Used to handle bounds for IMipVariable and IMipConstraint.</div><div class="ttdef"><b>Definition</b> hasBounds.h:29</div></div>
 <div class="ttc" id="aclassAntares_1_1Solver_1_1Modeler_1_1Api_1_1IHasName_html"><div class="ttname"><a href="classAntares_1_1Solver_1_1Modeler_1_1Api_1_1IHasName.html">Antares::Solver::Modeler::Api::IHasName</a></div><div class="ttdoc">Inherited by IMipVariable and IMipConstraint.</div><div class="ttdef"><b>Definition</b> hasName.h:31</div></div>
 <div class="ttc" id="aclassAntares_1_1Solver_1_1Modeler_1_1Api_1_1IMipVariable_html"><div class="ttname"><a href="classAntares_1_1Solver_1_1Modeler_1_1Api_1_1IMipVariable.html">Antares::Solver::Modeler::Api::IMipVariable</a></div><div class="ttdef"><b>Definition</b> mipVariable.h:31</div></div>

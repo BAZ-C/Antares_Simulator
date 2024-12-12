@@ -417,7 +417,7 @@ $(document).ready(function(){initNavTree('profitByPlant_8h_source.html',''); ini
 <div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span>            pValuesForTheCurrentYear[numSpace][cluster-&gt;areaWideIndex].<a class="code hl_variable" href="classAntares_1_1Solver_1_1Variable_1_1IntermediateValues.html#a49bfe1df7fe7547926b82e052f2e77be">hour</a>[hourInTheYear]</div>
 <div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>              = std::max((hourlyClusterProduction - cluster-&gt;PthetaInf[hourInTheYear]), 0.)</div>
 <div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>                * (-areaMarginalCosts[hourInTheWeek]</div>
-<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>                   - cluster-&gt;getMarginalCost(tsIndex, hourInTheYear));</div>
+<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>                   - cluster-&gt;getCostProvider().getMarginalCost(tsIndex, hourInTheYear));</div>
 <div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>        }</div>
 <div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span> </div>
 <div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>        <span class="comment">// Next variable</span></div>

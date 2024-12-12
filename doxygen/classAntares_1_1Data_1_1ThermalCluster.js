@@ -1,6 +1,5 @@
 var classAntares_1_1Data_1_1ThermalCluster =
 [
-    [ "CostsTimeSeries", "structAntares_1_1Data_1_1ThermalCluster_1_1CostsTimeSeries.html", null ],
     [ "DivModulation", "structAntares_1_1Data_1_1ThermalCluster_1_1DivModulation.html", null ],
     [ "Set", "classAntares_1_1Data_1_1ThermalCluster.html#ab67a172d64a398d01133439f4d1ade1e", null ],
     [ "SetPointer", "classAntares_1_1Data_1_1ThermalCluster.html#a25434c932081e4817018d1c67def58c3", null ],
@@ -22,7 +21,6 @@ var classAntares_1_1Data_1_1ThermalCluster =
     [ "calculatMinDivModulation", "classAntares_1_1Data_1_1ThermalCluster.html#a34cf70e585c4682be1890fd108ed90f1", null ],
     [ "checkMinStablePower", "classAntares_1_1Data_1_1ThermalCluster.html#ac7c7525e7554ae818a5758aa71c802f0", null ],
     [ "checkMinStablePowerWithNewModulation", "classAntares_1_1Data_1_1ThermalCluster.html#a228a76573d4775b752811956fec781e0", null ],
-    [ "ComputeCostTimeSeries", "classAntares_1_1Data_1_1ThermalCluster.html#a9e44a865af100a714c9d18105449aed4", null ],
     [ "copyFrom", "classAntares_1_1Data_1_1ThermalCluster.html#a999d0635a7c99242d4c383658872eef2", null ],
     [ "forceReload", "classAntares_1_1Data_1_1ThermalCluster.html#a8af7d95b5e9805d840d4c9b091073910", null ],
     [ "groupId", "classAntares_1_1Data_1_1ThermalCluster.html#a4a5dde22643ed69a9f489dfd34b9a93a", null ],
