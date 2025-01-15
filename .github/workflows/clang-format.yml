@@ -3,6 +3,9 @@ name: Check cpp formatting using clang 18.1.3
 on:
   pull_request:
 
+env:
+  BRANCH_NAME: ${{ github.head_ref || github.ref_name }}
+
 jobs:
   build:
     name: clang-format
@@ -13,7 +16,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.ref_name }}
+          ref: ${{ env.BRANCH_NAME }}
 
       - name: Print version
         run: clang-format --version
