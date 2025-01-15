@@ -12,6 +12,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        ref: ${{ github.ref_name }}
 
       - name: Print version
         run: clang-format --version
@@ -35,10 +36,9 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git pull --rebase origin ${{ github.event.pull_request.head.ref }}
           git add .
           git commit -m "Apply clang-format fixes"
-          git push  "HEAD:${{ github.event.pull_request.head.ref }}"
+          git push  "${{ github.ref_name }}"
   
       - name: test
         run: echo "********* ${{ steps.clang_format.outputs.needs_fix }} *********"
