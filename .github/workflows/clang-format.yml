@@ -43,7 +43,7 @@ jobs:
         run: echo "********* ${{ steps.clang_format.outputs.needs_fix }} *********"
 
       - name: Leave Comment on PR
-        if: env.needs_fix == 'true
+        if: env.needs_fix == 'true'
         uses: actions/github-script@v7
         with:
           script: |
