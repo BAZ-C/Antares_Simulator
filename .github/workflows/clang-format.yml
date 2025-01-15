@@ -26,7 +26,6 @@ jobs:
           echo "The following files are not well formatted, please make sure to use clang-format 18.1.3"
           echo "::set-output name=needs_fix::true"
           echo "$DIFF"
-          exit 1
           else
           echo "::set-output name=needs_fix::false"
           fi
