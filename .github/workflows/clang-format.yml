@@ -42,7 +42,7 @@ jobs:
           git config user.email "actions@github.com"
           git add .
           git commit -m "Apply clang-format fixes"
-          git push  "${{ github.ref_name }}"
+          git push  "${{ env.BRANCH_NAME }}"
   
       - name: test
         run: echo "********* ${{ steps.clang_format.outputs.needs_fix }} *********"
