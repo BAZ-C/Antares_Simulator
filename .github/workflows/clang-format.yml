@@ -39,6 +39,9 @@ jobs:
           git commit -m "Apply clang-format fixes"
           git push origin "HEAD:${{ github.event.pull_request.head.ref }}"
   
+      - name: test
+        run: echo "********* ${{ steps.clang_format.outputs.needs_fix }} *********"
+
       - name: Leave Comment on PR
         if: steps.clang_format.outputs.needs_fix == 'true'
         uses: actions/github-script@v7
