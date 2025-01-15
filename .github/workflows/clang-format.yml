@@ -35,9 +35,10 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
+          git pull --rebase origin ${{ github.event.pull_request.head.ref }}
           git add .
           git commit -m "Apply clang-format fixes"
-          git push origin "HEAD:${{ github.event.pull_request.head.ref }}"
+          git push  "HEAD:${{ github.event.pull_request.head.ref }}"
   
       - name: test
         run: echo "********* ${{ steps.clang_format.outputs.needs_fix }} *********"
