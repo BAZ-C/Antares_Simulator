@@ -31,27 +31,27 @@ jobs:
           echo "::set-output name=needs_fix::false"
           fi
 
-        - name: Propose Fixes
-          if: steps.clang_format.outputs.needs_fix == 'true'
-          run: |
-            git config user.name "GitHub Actions"
-            git config user.email "actions@github.com"
-            git add .
-            git commit -m "Apply clang-format fixes"
-            git push origin "HEAD:${{ github.event.pull_request.head.ref }}"
+      - name: Propose Fixes
+        if: steps.clang_format.outputs.needs_fix == 'true'
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add .
+          git commit -m "Apply clang-format fixes"
+          git push origin "HEAD:${{ github.event.pull_request.head.ref }}"
   
-        - name: Leave Comment on PR
-          if: steps.clang_format.outputs.needs_fix == 'true'
-          uses: github-script@v6
-          with:
-            script: |
-              github.rest.issues.createComment({
-                issue_number: ${{ github.event.pull_request.number }},
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                body: "The code was not formatted correctly. Formatting has been applied and changes were pushed to this pull request."
-              })
+      - name: Leave Comment on PR
+        if: steps.clang_format.outputs.needs_fix == 'true'
+        uses: github-script@v6
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: ${{ github.event.pull_request.number }},
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: "The code was not formatted correctly. Formatting has been applied and changes were pushed to this pull request."
+            })
   
-        - name: Formatting Successful
-          if: steps.clang_format.outputs.needs_fix == 'false'
-          run: echo "Code is well formatted!"         
+      - name: Formatting Successful
+        if: steps.clang_format.outputs.needs_fix == 'false'
+        run: echo "Code is well formatted!"         
