@@ -42,20 +42,19 @@ struct FixtureLoadFile
     FixtureLoadFile()
     {
         studyPath = CREATE_TMP_DIR_BASED_ON_TEST_NAME();
-        inputPath =                                                            createFolder(studyPath.string(), "input");
+        inputPath = createFolder(studyPath.string(), "input");
         libraryDirPath = createFolder(inputPath.string(), "model-libraries");
     }
 
     ~FixtureLoadFile()
     {
-                        fs::remove_all(studyPath);
+        fs::remove_all(studyPath);
     }
 };
 
 BOOST_AUTO_TEST_CASE(files_not_existing)
 {
-    fs::path studyPath = 
-    CREATE_TMP_DIR_BASED_ON_TEST_NAME();
+    fs::path studyPath = CREATE_TMP_DIR_BASED_ON_TEST_NAME();
     std::vector<Antares::Study::SystemModel::Library> libraries;
 
     BOOST_CHECK_THROW(Antares::Solver::LoadFiles::loadLibraries(studyPath), std::runtime_error);
