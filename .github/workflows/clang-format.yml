@@ -42,7 +42,7 @@ jobs:
   
       - name: Leave Comment on PR
         if: steps.clang_format.outputs.needs_fix == 'true'
-        uses: github-script@v6
+        uses: github-script@v7
         with:
           script: |
             github.rest.issues.createComment({
