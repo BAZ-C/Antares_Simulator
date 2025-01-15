@@ -24,14 +24,14 @@ jobs:
           DIFF=`git status --porcelain`
           if [[ $DIFF ]]; then
           echo "The following files are not well formatted, please make sure to use clang-format 18.1.3"
-          echo "::set-output name=needs_fix::true"
+          echo "needs_fix=true" >> $GITHUB_ENV
           echo "$DIFF"
           else
-          echo "::set-output name=needs_fix::false"
+          echo "needs_fix=false" >> $GITHUB_ENV
           fi
 
       - name: Propose Fixes
-        if: steps.clang_format.outputs.needs_fix == 'true'
+        if: env.needs_fix == 'true'
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
@@ -43,7 +43,7 @@ jobs:
         run: echo "********* ${{ steps.clang_format.outputs.needs_fix }} *********"
 
       - name: Leave Comment on PR
-        if: steps.clang_format.outputs.needs_fix == 'true'
+        if: env.needs_fix == 'true
         uses: actions/github-script@v7
         with:
           script: |
@@ -55,5 +55,5 @@ jobs:
             })
   
       - name: Formatting Successful
-        if: steps.clang_format.outputs.needs_fix == 'false'
+        if: env.needs_fix == 'false'
         run: echo "Code is well formatted!"         
