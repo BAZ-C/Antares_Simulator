@@ -30,5 +30,6 @@ var searchData=
   ['outputretriever_27',['OutputRetriever',['../classOutputRetriever.html',1,'']]],
   ['outputs_28',['Outputs',['../classAntares_1_1Window_1_1OutputViewer_1_1Provider_1_1Outputs.html',1,'Antares::Window::OutputViewer::Provider']]],
   ['overallcost_29',['overallcost',['../classAntares_1_1Solver_1_1Variable_1_1Adequacy_1_1OverallCost.html',1,'Antares::Solver::Variable::Adequacy::OverallCost&lt; NextT &gt;'],['../classAntares_1_1Solver_1_1Variable_1_1Economy_1_1OverallCost.html',1,'Antares::Solver::Variable::Economy::OverallCost&lt; NextT &gt;']]],
-  ['overflows_30',['Overflows',['../classAntares_1_1Solver_1_1Variable_1_1Economy_1_1Overflows.html',1,'Antares::Solver::Variable::Economy']]]
+  ['overallcostcsr_30',['OverallCostCsr',['../classAntares_1_1Solver_1_1Variable_1_1Economy_1_1OverallCostCsr.html',1,'Antares::Solver::Variable::Economy']]],
+  ['overflows_31',['Overflows',['../classAntares_1_1Solver_1_1Variable_1_1Economy_1_1Overflows.html',1,'Antares::Solver::Variable::Economy']]]
 ];

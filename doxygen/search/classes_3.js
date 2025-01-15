@@ -36,6 +36,6 @@ var searchData=
   ['drawingcontext_33',['DrawingContext',['../classAntares_1_1Map_1_1DrawingContext.html',1,'Antares::Map']]],
   ['dsm_34',['DSM',['../classAntares_1_1Component_1_1Datagrid_1_1Renderer_1_1DSM.html',1,'Antares::Component::Datagrid::Renderer']]],
   ['dtgmargincsr_35',['DtgMarginCsr',['../classAntares_1_1Solver_1_1Variable_1_1Economy_1_1DtgMarginCsr.html',1,'Antares::Solver::Variable::Economy']]],
-  ['dtgmarginforadqpatchpostprocesscmd_36',['DTGmarginForAdqPatchPostProcessCmd',['../classAntares_1_1Solver_1_1Simulation_1_1DTGmarginForAdqPatchPostProcessCmd.html',1,'Antares::Solver::Simulation']]],
+  ['dtgnettingaftercsrcmd_36',['DTGnettingAfterCSRcmd',['../classAntares_1_1Solver_1_1Simulation_1_1DTGnettingAfterCSRcmd.html',1,'Antares::Solver::Simulation']]],
   ['durationcollector_37',['DurationCollector',['../classBenchmarking_1_1DurationCollector.html',1,'Benchmarking']]]
 ];
