@@ -32,7 +32,7 @@ namespace Antares
 {
 
 HydroInputsChecker::HydroInputsChecker(Antares::Data::Study& study):
-                  areas_(study.areas),
+    areas_(study.areas),
     parameters_(study.parameters),
     calendar_(study.calendar),
     prepareInflows_(study.areas, study.calendar),
@@ -52,13 +52,13 @@ void HydroInputsChecker::Execute(uint year)
     }
     if (parameters_.useCustomScenario)
     {
-                        CheckFinalReservoirLevelsConfiguration(year);
+        CheckFinalReservoirLevelsConfiguration(year);
     }
 }
 
 bool HydroInputsChecker::checksOnGenerationPowerBounds(uint year)
 {
-    return checkMinGeneration(year)                 && checkGenerationPowerConsistency(year);
+    return checkMinGeneration(year) && checkGenerationPowerConsistency(year);
 }
 
 bool HydroInputsChecker::checkMinGeneration(uint year)
