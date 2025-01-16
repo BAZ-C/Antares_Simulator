@@ -31,7 +31,7 @@
 namespace Antares::Solver::Modeler::OrtoolsImpl
 {
 
-OrtoolsLinearProblem::OrtoolsLinearProblem(bool isMip, const std::string& solverName)
+OrtoolsLinearProblem::OrtoolsLinearProblem            (bool isMip, const std::string& solverName)
 {
     mpSolver_ = MPSolverFactory(isMip, solverName);
     objective_ = mpSolver_->MutableObjective();
@@ -40,13 +40,17 @@ OrtoolsLinearProblem::OrtoolsLinearProblem(bool isMip, const std::string& solver
 class ElemAlreadyExists: public std::exception
 {
 public:
-    const char* what() const noexcept override
+    const char* what()               const noexcept override
     {
         return "Element name already exists in linear problem";
     }
 };
 
 OrtoolsMipVariable* OrtoolsLinearProblem::addVariable(double lb,
+
+
+
+
                                                       double ub,
                                                       bool integer,
                                                       const std::string& name)
