@@ -41,7 +41,7 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add .
-          git commit -m "Apply clang-format fixes"
+          git commit -m "Apply clang-format fixes" 
           git push https://${{ secrets.CLANG_FORMAT }}@github.com/${{ github.repository }} "${{ env.BRANCH_NAME }}"
   
       - name: Leave Comment on PR
