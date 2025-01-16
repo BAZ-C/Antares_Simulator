@@ -27,12 +27,20 @@
 
 namespace Antares::Solver::ModelParser
 {
-Library Parser::parse(const std::string& content)
-{
-    YAML::Node root = YAML::Load(content);
+Library Parser::parse
 
+
+(const std::string& content)
+{
+                YAML::Node root = YAML::Load(content);
+
+    
+    
     Library library = root["library"].as<Library>();
 
-    return library;
+    return
+    
+    
+     library;
 }
 } // namespace Antares::Solver::ModelParser

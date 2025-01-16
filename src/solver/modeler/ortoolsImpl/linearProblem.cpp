@@ -47,6 +47,7 @@ public:
 };
 
 OrtoolsMipVariable* OrtoolsLinearProblem::addVariable(double lb,
+
                                                       double ub,
                                                       bool integer,
                                                       const std::string& name)
