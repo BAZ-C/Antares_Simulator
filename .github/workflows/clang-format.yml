@@ -43,6 +43,7 @@ jobs:
           git add .
           git commit -m "Apply clang-format fixes" 
           git push https://${{ secrets.CLANG_FORMAT }}@github.com/${{ github.repository }} "${{ env.BRANCH_NAME }}"
+
   
       - name: Leave Comment on PR
         if: env.needs_fix == 'true'
